@@ -792,7 +792,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "NCV8170AXV120T2G"
+		(property "Value" "NCV8170BXV120T2G"
 			(at 0 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -954,7 +954,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "NCV8170AXV150T2G"
+		(property "Value" "NCV8170BXV150T2G"
 			(at 0 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1035,7 +1035,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "NCV8170AXV180T2G"
+		(property "Value" "NCV8170BXV180T2G"
 			(at 0 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1116,7 +1116,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "NCV8170AXV250T2G"
+		(property "Value" "NCV8170BXV250T2G"
 			(at 0 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1197,7 +1197,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "NCV8170AXV280T2G"
+		(property "Value" "NCV8170BXV280T2G"
 			(at 0 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1278,7 +1278,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "NCV8170AXV300T2G"
+		(property "Value" "NCV8170BXV300T2G"
 			(at 0 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1359,7 +1359,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "NCV8170AXV310T2G"
+		(property "Value" "NCV8170BXV310T2G"
 			(at 0 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1440,7 +1440,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "NCV8170AXV330T2G"
+		(property "Value" "NCV8170BXV330T2G"
 			(at 0 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1521,7 +1521,7 @@
 				(justify top)
 			)
 		)
-		(property "Value" "NCV8170AXV360T2G"
+		(property "Value" "NCV8170BXV360T2G"
 			(at 0 6.35 0)
 			(show_name no)
 			(do_not_autoplace no)
