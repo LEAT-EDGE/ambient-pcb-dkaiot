@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "UCA DKAIoT2")
-		(date "2026-05-06")
+		(date "2026-05-27")
 		(rev "v0.1")
 		(company "//piernov")
 	)
@@ -237,6 +237,52 @@
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 125.73 97.79)
+		(size 43.18 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "e21f4090-1137-445d-beac-e9326d55c77a")
+		(property "Sheetname" "Input_Output"
+			(at 125.73 97.0784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Input_Output.kicad_sch"
+			(at 125.73 117.4246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "uca-dkaiot2-kicad"
+				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3"
+					(page "7")
 				)
 			)
 		)

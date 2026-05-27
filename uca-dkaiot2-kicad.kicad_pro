@@ -648,7 +648,7 @@
         "uuid": "13b7de53-ecff-4b32-b513-b5b471d022a3"
       }
     ],
-    "used_designators": "R6,R37-38,R51,R57-58,C3-4,C23,C25,C32,C41,C48-49,C52,#PWR31,#PWR33-44,U6-9",
+    "used_designators": "J_BOOT1-2,X1-2,U6-9,U11,U15-17,U30-31,Q1-2,#PWR31,#PWR33-86,Y1,J_D\\-1,C3-6,C15,C17,C19-20,C23,C25,C32,C35-36,C41,C48-49,C52,R6-8,R10,R12,R19-21,R23,R25,R28,R32-33,R37-38,R40-44,R48-49,R51,R57-58,LED1,TP1,MK1,RN1,SW1-2,J1,J3,J8,J13,J15,J_5V1-2",
     "variants": []
   },
   "sheets": [
@@ -675,6 +675,10 @@
     [
       "14d734f9-3275-482e-9982-51867d0b2093",
       "Sensors"
+    ],
+    [
+      "e21f4090-1137-445d-beac-e9326d55c77a",
+      "Input_Output"
     ]
   ],
   "text_variables": {},
