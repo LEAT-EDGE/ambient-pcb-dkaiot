@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Module:E22-400M22S"
+		(property "Footprint" "footprints:E22-400M22S"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -683,7 +683,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF_Module:E22-400M22S"
+		(property "Footprint" "footprints:E22-400M22S"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
