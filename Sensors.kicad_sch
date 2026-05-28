@@ -5,7 +5,8 @@
 	(uuid "2e33b323-567c-4eed-98a0-d55169947dd2")
 	(paper "A4")
 	(title_block
-		(date "2026-05-27")
+		(title "UCA DKAIoT2 — Sensors")
+		(date "2026-05-28")
 		(rev "v0.1")
 		(company "//piernov")
 	)
@@ -842,6 +843,25 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at -7.62 -3.81 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -10.16 0 0)
 					(length 2.54)
@@ -987,7 +1007,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Sensirion*DFN*1EP*2.5x2.5mm*P0.5mm*"
+			(property "ki_fp_filters" "Sensirion*DFN*1EP*2.44x2.44mm*P0.8mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2504,6 +2524,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text_box "Light sensor"
 		(exclude_from_sim no)
@@ -2774,13 +2909,13 @@
 		(uuid "74e96776-c0bc-4320-aa14-bf6cfa9cd5b8")
 	)
 	(junction
-		(at 196.85 93.98)
+		(at 196.85 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76b89de1-2892-4a28-b55d-c3fbbdf1a7fe")
 	)
 	(junction
-		(at 196.85 83.82)
+		(at 196.85 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79006337-c613-424a-ae9a-baea09c1ee82")
@@ -2909,7 +3044,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 83.82) (xy 196.85 86.36)
+			(xy 196.85 88.9) (xy 196.85 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2919,7 +3054,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 93.98) (xy 196.85 93.98)
+			(xy 189.23 99.06) (xy 196.85 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2946,16 +3081,6 @@
 			(type default)
 		)
 		(uuid "124b2240-7aef-4917-8a09-ce6321c7d75b")
-	)
-	(wire
-		(pts
-			(xy 199.39 73.66) (xy 196.85 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14b7de2b-42e8-4dc3-b75e-ed7d65b7dabe")
 	)
 	(wire
 		(pts
@@ -3129,6 +3254,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 71.12) (xy 147.32 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37546932-5321-494f-a3bc-aa95628e0b0d")
+	)
+	(wire
+		(pts
 			(xy 153.67 146.05) (xy 153.67 148.59)
 		)
 		(stroke
@@ -3229,7 +3364,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 91.44) (xy 189.23 93.98)
+			(xy 189.23 96.52) (xy 189.23 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3299,7 +3434,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 93.98) (xy 196.85 91.44)
+			(xy 196.85 99.06) (xy 196.85 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3359,7 +3494,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 83.82) (xy 196.85 83.82)
+			(xy 189.23 88.9) (xy 196.85 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3439,7 +3574,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 73.66) (xy 196.85 76.2)
+			(xy 196.85 78.74) (xy 196.85 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3509,7 +3644,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 83.82) (xy 189.23 86.36)
+			(xy 189.23 88.9) (xy 189.23 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3659,7 +3794,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 83.82) (xy 209.55 83.82)
+			(xy 212.09 88.9) (xy 209.55 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3699,7 +3834,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 96.52) (xy 196.85 93.98)
+			(xy 196.85 101.6) (xy 196.85 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3779,7 +3914,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 83.82) (xy 204.47 83.82)
+			(xy 196.85 88.9) (xy 204.47 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3949,7 +4084,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 81.28) (xy 196.85 83.82)
+			(xy 196.85 86.36) (xy 196.85 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4118,7 +4253,7 @@
 		(uuid "febebab8-01ef-4e1b-a510-439d8afb8b9f")
 	)
 	(global_label "SDA_1V8"
-		(shape input)
+		(shape bidirectional)
 		(at 156.21 39.37 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4129,7 +4264,7 @@
 		)
 		(uuid "2ec02203-6083-4b2a-866c-c6e24b3018cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.2385 39.37 0)
+			(at 168.3498 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4142,8 +4277,8 @@
 		)
 	)
 	(global_label "PC2_ADC"
-		(shape input)
-		(at 212.09 83.82 0)
+		(shape output)
+		(at 212.09 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4153,7 +4288,7 @@
 		)
 		(uuid "306df465-f725-4ea0-a428-f06c50085eaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.4209 83.82 0)
+			(at 223.4209 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4238,7 +4373,7 @@
 		)
 	)
 	(global_label "SAI_SD"
-		(shape input)
+		(shape output)
 		(at 91.44 153.67 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4262,7 +4397,7 @@
 		)
 	)
 	(global_label "I2C1_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 124.46 138.43 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4273,7 +4408,7 @@
 		)
 		(uuid "8173e502-37f9-4457-8296-23dcc879aa5c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 112.6453 138.43 0)
+			(at 111.534 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4286,7 +4421,7 @@
 		)
 	)
 	(global_label "I2C1_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 46.99 39.37 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4297,7 +4432,7 @@
 		)
 		(uuid "88352d09-8e71-40fc-a97b-62e146fd1d7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.1753 39.37 0)
+			(at 34.064 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4309,32 +4444,8 @@
 			)
 		)
 	)
-	(global_label "SOLAR"
-		(shape input)
-		(at 199.39 73.66 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8d403e9e-f54b-4e03-8a53-31977e451a72")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.3019 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "I2C1_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 67.31 102.87 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4345,7 +4456,7 @@
 		)
 		(uuid "932fe25e-4e0c-49be-8834-081a799199c1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 79.1247 102.87 0)
+			(at 80.236 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4358,7 +4469,7 @@
 		)
 	)
 	(global_label "HALL_OUT"
-		(shape input)
+		(shape output)
 		(at 149.86 86.36 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4454,7 +4565,7 @@
 		)
 	)
 	(global_label "INT_ACC_3"
-		(shape input)
+		(shape output)
 		(at 80.01 41.91 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4478,7 +4589,7 @@
 		)
 	)
 	(global_label "VBAT_MEASURE"
-		(shape input)
+		(shape output)
 		(at 201.93 40.64 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4636,7 +4747,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 27.94 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4685,6 +4796,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 147.32 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c6308d9-9c61-4e07-a56c-582456b5d974")
+		(property "Reference" "#FLG02"
+			(at 147.32 69.215 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 147.32 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 147.32 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81010ef9-c862-43b3-9466-15d8db3f47ca")
+		)
+		(instances
+			(project "uca-dkaiot2-kicad"
+				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/14d734f9-3275-482e-9982-51867d0b2093"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Pack04")
 		(at 83.82 156.21 270)
 		(unit 1)
@@ -4716,7 +4906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 83.82 163.195 90)
 			(hide yes)
 			(show_name no)
@@ -4784,7 +4974,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 196.85 96.52 0)
+		(at 196.85 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4795,7 +4985,7 @@
 		(fields_autoplaced yes)
 		(uuid "27d7563a-e3c8-48ff-800b-17bc1e341808")
 		(property "Reference" "#PWR078"
-			(at 196.85 102.87 0)
+			(at 196.85 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4806,7 +4996,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 101.6 0)
+			(at 196.85 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4816,7 +5006,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 96.52 0)
+			(at 196.85 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4827,7 +5017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 96.52 0)
+			(at 196.85 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4838,7 +5028,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 96.52 0)
+			(at 196.85 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4894,7 +5084,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 199.39 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5048,7 +5238,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3360b9be-381c-4d04-8480-13c76d183c1f")
-		(property "Reference" "C3"
+		(property "Reference" "C32"
 			(at 116.84 85.344 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5059,7 +5249,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 116.84 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5070,7 +5260,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 127 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -5112,7 +5302,7 @@
 		(instances
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/14d734f9-3275-482e-9982-51867d0b2093"
-					(reference "C3")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -5129,7 +5319,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c88f65d-0a48-4a5c-b926-e1a30c453adc")
-		(property "Reference" "C25"
+		(property "Reference" "C23"
 			(at 98.806 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5151,7 +5341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 95.25 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -5193,7 +5383,7 @@
 		(instances
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/14d734f9-3275-482e-9982-51867d0b2093"
-					(reference "C25")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -5311,7 +5501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 199.39 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -5483,7 +5673,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 124.46 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -5554,14 +5744,13 @@
 			)
 		)
 		(property "Value" "HP203B"
-			(at 127 127.762 0)
+			(at 129.032 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Package_LGA:NXP_LGA-8_3x5mm_P1.25mm_H1.1mm"
@@ -5617,6 +5806,9 @@
 		)
 		(pin "8"
 			(uuid "347720a4-119f-4bc7-ba8b-fd7b6c8a037d")
+		)
+		(pin "4"
+			(uuid "4df7b2a5-0433-4db4-ae19-42eced71cfa1")
 		)
 		(instances
 			(project "uca-dkaiot2-kicad"
@@ -5910,7 +6102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 43.18 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -5960,7 +6152,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 196.85 88.9 0)
+		(at 196.85 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5971,7 +6163,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f9b0bd0-3d9d-4f3d-b330-772ae52ba83c")
 		(property "Reference" "R31"
-			(at 199.39 87.6299 0)
+			(at 199.39 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5982,7 +6174,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 199.39 90.1699 0)
+			(at 199.39 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5992,8 +6184,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 196.85 88.9 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 196.85 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6004,7 +6196,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 88.9 0)
+			(at 196.85 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6015,7 +6207,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 196.85 88.9 0)
+			(at 196.85 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6151,7 +6343,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 33.02 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6232,7 +6424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 153.67 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6314,7 +6506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 147.32 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6608,7 +6800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a350bb22-c923-428f-a256-f3fad615d32c")
-		(property "Reference" "C4"
+		(property "Reference" "C39"
 			(at 166.37 139.7062 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6630,7 +6822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 163.83 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -6672,7 +6864,7 @@
 		(instances
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/14d734f9-3275-482e-9982-51867d0b2093"
-					(reference "C4")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -6680,7 +6872,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 196.85 78.74 0)
+		(at 196.85 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6691,7 +6883,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5c9d51b-3f28-4016-a929-522444becb91")
 		(property "Reference" "R29"
-			(at 199.39 77.4699 0)
+			(at 199.39 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6702,7 +6894,7 @@
 			)
 		)
 		(property "Value" "4M"
-			(at 199.39 80.0099 0)
+			(at 199.39 85.0899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6712,8 +6904,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 196.85 78.74 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 196.85 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6724,7 +6916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 78.74 0)
+			(at 196.85 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6735,7 +6927,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 196.85 78.74 0)
+			(at 196.85 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6793,7 +6985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 153.67 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -7130,7 +7322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 85.09 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -7345,7 +7537,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb1ced5a-d159-49ba-8493-871081f664f8")
-		(property "Reference" "U9"
+		(property "Reference" "U11"
 			(at 151.892 93.726 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7356,7 +7548,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "DRV5033AJxDBZ"
+		(property "Value" "DRV5023AJxDBZ"
 			(at 151.892 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7412,7 +7604,85 @@
 		(instances
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/14d734f9-3275-482e-9982-51867d0b2093"
-					(reference "U9")
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 196.85 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1cd3e81-c4d0-43a7-9fb3-50e495b588c5")
+		(property "Reference" "#PWR094"
+			(at 196.85 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SOLAR"
+			(at 196.85 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 196.85 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "10ef0383-78ec-42b2-a71d-308c9e1b2aaa")
+		)
+		(instances
+			(project "uca-dkaiot2-kicad"
+				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/14d734f9-3275-482e-9982-51867d0b2093"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -7450,7 +7720,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 74.93 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7531,7 +7801,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 191.77 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7581,7 +7851,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 189.23 88.9 0)
+		(at 189.23 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7591,7 +7861,7 @@
 		(dnp no)
 		(uuid "d9fdb1da-b315-4bcf-8c00-80d207733d7c")
 		(property "Reference" "C46"
-			(at 182.626 87.376 0)
+			(at 182.626 92.456 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7602,7 +7872,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 180.848 91.186 0)
+			(at 180.848 96.266 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7612,8 +7882,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 189.23 88.9 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 189.23 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7624,7 +7894,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 88.9 0)
+			(at 189.23 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7635,7 +7905,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 189.23 88.9 0)
+			(at 189.23 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7662,7 +7932,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 207.01 83.82 90)
+		(at 207.01 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7673,7 +7943,7 @@
 		(fields_autoplaced yes)
 		(uuid "dad78b8f-cbd3-4540-bb34-f763991c80b8")
 		(property "Reference" "R30"
-			(at 207.01 78.74 90)
+			(at 207.01 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7683,7 +7953,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 207.01 81.28 90)
+			(at 207.01 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7692,8 +7962,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 207.01 83.82 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 207.01 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7704,7 +7974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 83.82 0)
+			(at 207.01 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7715,7 +7985,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 207.01 83.82 0)
+			(at 207.01 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7773,7 +8043,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 85.09 87.63 0)
 			(hide yes)
 			(show_name no)

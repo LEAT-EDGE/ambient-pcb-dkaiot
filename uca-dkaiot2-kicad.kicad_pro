@@ -260,7 +260,44 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "footprint_link_issues|1879600|1143000|5d4c2cf2-6c3a-4d72-b138-9a7ae70bdf4b|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "multiple_net_names|1409700|914400|06f47371-1e9e-4d26-a23f-948f4d9d44db|e13c53ab-b41f-43a1-a5f2-05b0b898d1ff|/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08|/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08|/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08",
+        ""
+      ],
+      [
+        "pin_to_pin|1320800|838200|011ddc86-71b7-4230-ad3d-8e480edf6c8d|b5e3a0b1-9d76-4f78-a362-cf2fccf30d86|/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a|/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a|/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a",
+        ""
+      ],
+      [
+        "pin_to_pin|1511300|1346200|c3971c0d-b064-45a3-9cf6-c38df55623a6|81010ef9-c862-43b3-9466-15d8db3f47ca|/13b7de53-ecff-4b32-b513-b5b471d022a3/1d5af506-69c6-4b4d-9333-2658f621317a|/13b7de53-ecff-4b32-b513-b5b471d022a3/1d5af506-69c6-4b4d-9333-2658f621317a|/13b7de53-ecff-4b32-b513-b5b471d022a3/14d734f9-3275-482e-9982-51867d0b2093",
+        ""
+      ],
+      [
+        "pin_to_pin|1511300|711200|e20b2343-cc17-4c66-904b-991fac2470ce|fe2deab7-de8e-477c-b9ec-074832fd3480|/13b7de53-ecff-4b32-b513-b5b471d022a3/1d5af506-69c6-4b4d-9333-2658f621317a|/13b7de53-ecff-4b32-b513-b5b471d022a3/1d5af506-69c6-4b4d-9333-2658f621317a|/13b7de53-ecff-4b32-b513-b5b471d022a3/32a654bf-d623-4518-9392-f2b212dc4f8b",
+        ""
+      ],
+      [
+        "pin_to_pin|1511300|787400|b9c94993-62d0-4393-8093-f8f6362d8f95|115948ac-453d-4f40-ac94-27e08d9b688d|/13b7de53-ecff-4b32-b513-b5b471d022a3/1d5af506-69c6-4b4d-9333-2658f621317a|/13b7de53-ecff-4b32-b513-b5b471d022a3/1d5af506-69c6-4b4d-9333-2658f621317a|/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a",
+        ""
+      ],
+      [
+        "pin_to_pin|1587500|1079500|48ad7204-405a-49e5-8274-443b1ec513a5|e823d240-73de-435f-bda2-bc59565ae39a|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa",
+        ""
+      ],
+      [
+        "pin_to_pin|825500|1104900|a70ad452-03ae-4faa-b3fe-6fc0aa89ec9b|48ad7204-405a-49e5-8274-443b1ec513a5|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa",
+        ""
+      ],
+      [
+        "pin_to_pin|825500|1130300|e085ce31-aa54-460f-8f8a-7be4def334c7|455ff5df-b0a8-4eb0-93b3-b54fcaba2e4c|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -446,7 +483,7 @@
       "endpoint_off_grid": "warning",
       "extra_units": "error",
       "field_name_whitespace": "warning",
-      "footprint_filter": "ignore",
+      "footprint_filter": "warning",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "ground_pin_not_ground": "warning",
@@ -473,7 +510,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -648,7 +685,7 @@
         "uuid": "13b7de53-ecff-4b32-b513-b5b471d022a3"
       }
     ],
-    "used_designators": "J_BOOT1-2,X1-2,U6-9,U11,U15-17,U30-31,Q1-2,#PWR31,#PWR33-86,Y1,J_D\\-1,C3-6,C15,C17,C19-20,C23,C25,C32,C35-36,C41,C48-49,C52,R6-8,R10,R12,R19-21,R23,R25,R28,R32-33,R37-38,R40-44,R48-49,R51,R57-58,LED1,TP1,MK1,RN1,SW1-2,J1,J3,J8,J13,J15,J_5V1-2",
+    "used_designators": "#PWR20,J15",
     "variants": []
   },
   "sheets": [

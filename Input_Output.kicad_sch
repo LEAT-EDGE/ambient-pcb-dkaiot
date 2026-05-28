@@ -5,7 +5,8 @@
 	(uuid "46c01579-a425-4ba5-92d2-ce9bc6cce026")
 	(paper "A4")
 	(title_block
-		(date "2026-05-27")
+		(title "UCA DKAIoT2 — Input/Output")
+		(date "2026-05-28")
 		(rev "v0.1")
 		(company "//piernov")
 	)
@@ -3877,7 +3878,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 172.72) (xy 91.44 170.18)
+			(xy 91.44 180.34) (xy 91.44 177.8)
 		)
 		(stroke
 			(width 0)
@@ -3944,6 +3945,16 @@
 			(type default)
 		)
 		(uuid "69278d79-112a-45bc-8abd-e1f91e06dcf3")
+	)
+	(wire
+		(pts
+			(xy 91.44 172.72) (xy 91.44 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a543437-1055-49c6-917a-3343a31b8c4b")
 	)
 	(wire
 		(pts
@@ -4310,7 +4321,7 @@
 		)
 	)
 	(global_label "SWDIO"
-		(shape input)
+		(shape bidirectional)
 		(at 132.08 86.36 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4321,7 +4332,7 @@
 		)
 		(uuid "0fd9354a-8fdb-4bef-8263-10763a4c4729")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.2286 86.36 0)
+			(at 122.1173 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4334,7 +4345,7 @@
 		)
 	)
 	(global_label "MCU_RESET"
-		(shape input)
+		(shape output)
 		(at 132.08 119.38 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4382,7 +4393,7 @@
 		)
 	)
 	(global_label "SWCLK"
-		(shape input)
+		(shape output)
 		(at 132.08 83.82 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4454,7 +4465,7 @@
 		)
 	)
 	(global_label "I2C3_SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 88.9 113.03 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4465,7 +4476,7 @@
 		)
 		(uuid "3fe24c13-9d64-4d6a-b9eb-49ea18c50c34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 77.0853 113.03 0)
+			(at 75.974 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4478,7 +4489,7 @@
 		)
 	)
 	(global_label "UserButton"
-		(shape input)
+		(shape output)
 		(at 49.53 167.64 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4502,7 +4513,7 @@
 		)
 	)
 	(global_label "USB+"
-		(shape input)
+		(shape bidirectional)
 		(at 234.95 123.19 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4513,7 +4524,7 @@
 		)
 		(uuid "5489c56b-111c-454d-bef0-f7fc4b95dba6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.3176 123.19 0)
+			(at 244.4289 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4526,7 +4537,7 @@
 		)
 	)
 	(global_label "PA5_DAC_ADC"
-		(shape input)
+		(shape bidirectional)
 		(at 209.55 82.55 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4537,7 +4548,7 @@
 		)
 		(uuid "61083c29-0054-402b-bb49-1bd00e648196")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.8043 82.55 0)
+			(at 192.693 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4550,7 +4561,7 @@
 		)
 	)
 	(global_label "PC2_ADC"
-		(shape input)
+		(shape output)
 		(at 209.55 85.09 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4574,7 +4585,7 @@
 		)
 	)
 	(global_label "SWCLK"
-		(shape input)
+		(shape output)
 		(at 133.35 52.07 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4598,7 +4609,7 @@
 		)
 	)
 	(global_label "EXT_MIC_IO_2"
-		(shape input)
+		(shape bidirectional)
 		(at 88.9 120.65 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4609,7 +4620,7 @@
 		)
 		(uuid "82ce1958-6796-40d5-92d2-aec5e95661d7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.2149 120.65 0)
+			(at 72.1036 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4694,7 +4705,7 @@
 		)
 	)
 	(global_label "EXT_MIC_IO_1"
-		(shape input)
+		(shape bidirectional)
 		(at 88.9 118.11 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4705,7 +4716,7 @@
 		)
 		(uuid "904a886d-8943-4be2-b51c-16cb66829fae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.2149 118.11 0)
+			(at 72.1036 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4718,7 +4729,7 @@
 		)
 	)
 	(global_label "PA3_RX"
-		(shape input)
+		(shape output)
 		(at 209.55 52.07 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4742,7 +4753,7 @@
 		)
 	)
 	(global_label "SWDIO"
-		(shape input)
+		(shape bidirectional)
 		(at 133.35 57.15 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4753,7 +4764,7 @@
 		)
 		(uuid "9dab615b-cc39-4337-87a4-91120ebd598b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 124.4986 57.15 0)
+			(at 123.3873 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4790,7 +4801,7 @@
 		)
 	)
 	(global_label "SWDIO"
-		(shape input)
+		(shape bidirectional)
 		(at 132.08 127 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4801,7 +4812,7 @@
 		)
 		(uuid "9f77e848-c024-46b4-80f9-a9c33a86b156")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.2286 127 0)
+			(at 122.1173 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4814,7 +4825,7 @@
 		)
 	)
 	(global_label "MCU_RESET"
-		(shape input)
+		(shape output)
 		(at 132.08 78.74 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4838,7 +4849,7 @@
 		)
 	)
 	(global_label "SWCLK"
-		(shape input)
+		(shape output)
 		(at 132.08 124.46 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4862,7 +4873,7 @@
 		)
 	)
 	(global_label "MISO_E22"
-		(shape input)
+		(shape output)
 		(at 60.96 64.77 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4886,7 +4897,7 @@
 		)
 	)
 	(global_label "SD_CD"
-		(shape input)
+		(shape output)
 		(at 60.96 72.39 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4934,7 +4945,7 @@
 		)
 	)
 	(global_label "SAI_SD"
-		(shape input)
+		(shape output)
 		(at 46.99 118.11 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4958,7 +4969,7 @@
 		)
 	)
 	(global_label "USB-"
-		(shape input)
+		(shape bidirectional)
 		(at 234.95 125.73 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4969,7 +4980,7 @@
 		)
 		(uuid "f0dcb172-9c70-4913-8233-e2db6056a0b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.3176 125.73 0)
+			(at 244.4289 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4982,7 +4993,7 @@
 		)
 	)
 	(global_label "MCU_RESET"
-		(shape input)
+		(shape output)
 		(at 88.9 123.19 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5006,7 +5017,7 @@
 		)
 	)
 	(global_label "MCU_RESET"
-		(shape input)
+		(shape output)
 		(at 133.35 54.61 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5141,7 +5152,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 54.61 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -5234,7 +5245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 198.12 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5372,7 +5383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "434b486c-7a88-4ba3-8c0e-d5fc3122d94d")
-		(property "Reference" "J_GND"
+		(property "Reference" "J_GND1"
 			(at 217.17 131.3179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5394,7 +5405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 219.71 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -5433,7 +5444,7 @@
 		(instances
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
-					(reference "J_GND")
+					(reference "J_GND1")
 					(unit 1)
 				)
 			)
@@ -5545,7 +5556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cda7f6b-e3fd-4f06-8740-db23bff87787")
-		(property "Reference" "J_D+"
+		(property "Reference" "J_D+1"
 			(at 224.79 118.6179 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5567,7 +5578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 227.33 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5606,7 +5617,7 @@
 		(instances
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
-					(reference "J_D+")
+					(reference "J_D+1")
 					(unit 1)
 				)
 			)
@@ -5645,7 +5656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 52.07 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5727,7 +5738,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
 			(at 93.98 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -5977,7 +5988,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 217.17 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6277,7 +6288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "745d217d-14e7-4521-b325-958637c314f0")
-		(property "Reference" "LED1"
+		(property "Reference" "D1"
 			(at 96.52 165.0999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6341,7 +6352,7 @@
 		(instances
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
-					(reference "LED1")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6381,7 +6392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 217.17 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6460,7 +6471,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:microSD_XKB_XKTF-015-x"
 			(at 138.43 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6527,6 +6538,88 @@
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "U32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 91.44 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80d2342a-820f-464b-bcaf-c4addb1dcbaf")
+		(property "Reference" "R8"
+			(at 93.98 173.9899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "360"
+			(at 93.98 176.5299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 91.44 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 91.44 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5d07e011-e6d4-4e3b-9d18-c193bb611f22")
+		)
+		(pin "2"
+			(uuid "13b3d4c9-584b-478b-b585-535856b7d3bd")
+		)
+		(instances
+			(project "uca-dkaiot2-kicad"
+				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6722,7 +6815,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 52.07 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -7032,7 +7125,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b00ba1ad-8bab-4d6e-a737-175e9001c033")
-		(property "Reference" "J_D-"
+		(property "Reference" "J_D-1"
 			(at 224.79 127.7619 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7054,7 +7147,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 217.17 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7093,7 +7186,7 @@
 		(instances
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
-					(reference "J_D-")
+					(reference "J_D-1")
 					(unit 1)
 				)
 			)
@@ -7101,7 +7194,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 172.72 0)
+		(at 91.44 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7112,7 +7205,7 @@
 		(fields_autoplaced yes)
 		(uuid "b17cedc4-1ea7-483f-b8ab-6b6c0df1449d")
 		(property "Reference" "#PWR075"
-			(at 91.44 179.07 0)
+			(at 91.44 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7123,7 +7216,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 177.8 0)
+			(at 91.44 185.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7133,7 +7226,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 172.72 0)
+			(at 91.44 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7144,7 +7237,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 172.72 0)
+			(at 91.44 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7155,7 +7248,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 172.72 0)
+			(at 91.44 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7444,7 +7537,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
 			(at 140.97 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7669,7 +7762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e972d808-1c98-4cf8-ba56-839500eb31a9")
-		(property "Reference" "J_5V"
+		(property "Reference" "J_5V1"
 			(at 220.98 113.5379 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7691,7 +7784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
 			(at 223.52 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7730,7 +7823,7 @@
 		(instances
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
-					(reference "J_5V")
+					(reference "J_5V1")
 					(unit 1)
 				)
 			)
@@ -7846,7 +7939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_Micro-B_Molex-105017-0001"
 			(at 209.55 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7918,7 +8011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff84954e-2921-42c9-a40d-a27212a5f009")
-		(property "Reference" "SW_User"
+		(property "Reference" "SW_User1"
 			(at 59.69 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7938,7 +8031,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:Panasonic_EVQPUM_EVQPUD"
 			(at 59.69 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -7980,7 +8073,7 @@
 		(instances
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
-					(reference "SW_User")
+					(reference "SW_User1")
 					(unit 1)
 				)
 			)
