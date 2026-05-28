@@ -75,7 +75,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "LGA?12*2x2mm*P0.5mm*"
+		(property "ki_fp_filters" "LGA?16*3x3mm*P0.5mm*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
