@@ -4017,6 +4017,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "R51")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -4176,6 +4179,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "R36")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -4335,6 +4342,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "C47")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -4494,6 +4505,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "C40")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -4575,6 +4590,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "C48")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -4656,6 +4675,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "R53")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -4738,6 +4760,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "C50")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -4926,6 +4952,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "U24")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -5008,6 +5038,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "C22")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -5323,6 +5357,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "U19")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -5445,6 +5483,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "U20")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -5527,6 +5569,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "R50")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -5608,6 +5653,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "R52")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -5689,6 +5738,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "C49")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -5771,6 +5824,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "C38")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -5972,6 +6029,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "U6")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -6132,6 +6193,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "C41")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -6213,6 +6278,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "R35")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -6295,6 +6363,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "C21")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)

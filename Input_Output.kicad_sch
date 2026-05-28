@@ -5208,6 +5208,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "J14")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -5289,6 +5292,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "C10")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -5446,6 +5452,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "J_GND1")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -5540,6 +5549,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "J13")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -5619,6 +5631,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "J_D+1")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -5700,6 +5715,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "R6")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -5794,6 +5812,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "J2")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -6038,6 +6059,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "J1")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -6354,6 +6378,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "D1")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -6436,6 +6463,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "J3")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -6539,6 +6569,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "U32")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -6621,6 +6654,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "R8")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -6859,6 +6895,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "C9")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -7031,6 +7070,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "J9")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -7188,6 +7230,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "J_D-1")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -7590,6 +7635,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "J7")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -7825,6 +7873,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "J_5V1")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -7995,6 +8046,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "J8")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
@@ -8075,6 +8129,9 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "SW_User1")
 					(unit 1)
+					(variant
+						(name "Ambient")
+					)
 				)
 			)
 		)
