@@ -151,6 +151,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "R"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at -1.27 7.62 270)
 				(length 2.54)
@@ -188,24 +206,6 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 0 0)
-				(length 2.54)
-				(name "R"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 -7.62 90)
 				(length 2.54)
 				(hide yes)
@@ -216,7 +216,7 @@
 						)
 					)
 				)
-				(number "9"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
