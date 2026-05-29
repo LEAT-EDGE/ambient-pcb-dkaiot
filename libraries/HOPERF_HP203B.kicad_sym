@@ -28,7 +28,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA:NXP_LGA-8_3x5mm_P1.25mm_H1.1mm"
+		(property "Footprint" "footprints:LGA-8_3.6x3.8mm_P0.9mm"
 			(at 25.4 -11.43 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72,7 +72,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "NXP*LGA*3x5mm*P1.25mm*H1.1mm*"
+		(property "ki_fp_filters" "*LGA-8*3.6x3.8mm*P0.9mm*"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
