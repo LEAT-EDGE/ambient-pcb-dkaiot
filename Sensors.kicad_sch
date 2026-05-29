@@ -720,7 +720,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_LGA:NXP_LGA-8_3x5mm_P1.25mm_H1.1mm"
+			(property "Footprint" "footprints:LGA-8_3.6x3.8mm_P0.9mm"
 				(at 25.4 -11.43 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -764,7 +764,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "NXP*LGA*3x5mm*P1.25mm*H1.1mm*"
+			(property "ki_fp_filters" "*LGA-8*3.6x3.8mm*P0.9mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1086,6 +1086,24 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at -1.27 7.62 270)
 					(length 2.54)
@@ -1123,24 +1141,6 @@
 					)
 				)
 				(pin passive line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 -7.62 90)
 					(length 2.54)
 					(hide yes)
@@ -1151,7 +1151,7 @@
 							)
 						)
 					)
-					(number "9"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1633,14 +1633,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Magnetic:DRV5033AJxDBZ"
+		(symbol "Sensor_Magnetic:DRV5033AJxLPG"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 2.54 12.7 0)
+				(at 5.08 12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1649,8 +1649,8 @@
 					)
 				)
 			)
-			(property "Value" "DRV5033AJxDBZ"
-				(at 2.54 10.16 0)
+			(property "Value" "DRV5033AJxLPG"
+				(at 7.62 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1659,7 +1659,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1681,7 +1681,7 @@
 					)
 				)
 			)
-			(property "Description" "±6.9 / ±3.5 mT, 20-kHz, 2-38V, SOT-23"
+			(property "Description" "±6.9 / ±3.5 mT, 20-kHz, 2-38V, TO-92"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1703,7 +1703,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "TO?92*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1714,7 +1714,7 @@
 					)
 				)
 			)
-			(symbol "DRV5033AJxDBZ_1_1"
+			(symbol "DRV5033AJxLPG_1_1"
 				(rectangle
 					(start -5.08 7.62)
 					(end 5.08 -7.62)
@@ -1744,10 +1744,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
+				(pin power_in line
+					(at -2.54 -10.16 90)
 					(length 2.54)
-					(name "OUT"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1762,10 +1762,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -2.54 -10.16 90)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "GND"
+					(name "OUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5225,7 +5225,7 @@
 		(pin "7"
 			(uuid "567ee54d-1ce4-41d0-bc39-07e9b7ffcccf")
 		)
-		(pin "9"
+		(pin "4"
 			(uuid "237ee66f-d19b-43be-95f9-86fb6f56a1bc")
 		)
 		(instances
@@ -5574,6 +5574,90 @@
 		)
 	)
 	(symbol
+		(lib_id "Sensor_Magnetic:DRV5033AJxLPG")
+		(at 137.16 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50b7d5e0-a189-447e-8052-4f5d2d0d6b48")
+		(property "Reference" "U11"
+			(at 153.416 93.472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "DRV5023AJxLPG"
+			(at 153.416 96.012 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 137.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5033.pdf"
+			(at 137.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "±6.9 / ±3.5 mT, 20-kHz, 2-38V, TO-92"
+			(at 137.16 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "513a1fff-de15-42ef-a59c-5546b9adc33a")
+		)
+		(pin "3"
+			(uuid "6cbd4ec9-ecf5-4b69-92b6-da34e170112f")
+		)
+		(pin "1"
+			(uuid "6b5ddbe4-8e3f-424f-86e0-728ab9198f14")
+		)
+		(instances
+			(project "uca-dkaiot2-kicad"
+				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/14d734f9-3275-482e-9982-51867d0b2093"
+					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sensor_Optical:LTR-303ALS-01")
 		(at 59.69 41.91 0)
 		(unit 1)
@@ -5776,7 +5860,7 @@
 			)
 		)
 		(property "Value" "HP203B"
-			(at 129.032 128.27 0)
+			(at 143.51 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5785,7 +5869,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA:NXP_LGA-8_3x5mm_P1.25mm_H1.1mm"
+		(property "Footprint" "footprints:LGA-8_3.6x3.8mm_P0.9mm"
 			(at 162.56 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7598,94 +7682,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/14d734f9-3275-482e-9982-51867d0b2093"
 					(reference "#PWR058")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Magnetic:DRV5033AJxDBZ")
-		(at 137.16 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "cb1ced5a-d159-49ba-8493-871081f664f8")
-		(property "Reference" "U11"
-			(at 151.892 93.726 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "DRV5023AJxDBZ"
-			(at 151.892 96.266 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 137.16 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv5033.pdf"
-			(at 137.16 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "±6.9 / ±3.5 mT, 20-kHz, 2-38V, SOT-23"
-			(at 137.16 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0602b14b-2c02-4b3d-81a6-27e590f5280d")
-		)
-		(pin "3"
-			(uuid "6964faf7-8490-4506-9b87-886b6ec3238d")
-		)
-		(pin "2"
-			(uuid "c0bcaf8a-a21b-4a3a-b518-85f3493d924b")
-		)
-		(instances
-			(project "uca-dkaiot2-kicad"
-				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/14d734f9-3275-482e-9982-51867d0b2093"
-					(reference "U11")
-					(unit 1)
-					(variant
-						(name "Ambient")
-						(dnp yes)
-					)
 				)
 			)
 		)
