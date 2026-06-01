@@ -167,3 +167,9 @@
 (constraint silk_clearance (min 0.15mm))
 (layer outer)
 (condition "A.Type == 'pad' && (B.Type == 'text' || B.Type == 'graphic')"))
+
+
+(rule "Allow overlapping courtyards for DNP parts"
+    (condition "A.Type == 'Footprint' && B.Type == 'Footprint' && A.hasComponentClass('NO_COURTYARD')")
+    (constraint courtyard_clearance (min -1mm))
+)

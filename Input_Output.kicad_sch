@@ -3729,10 +3729,6 @@
 		(uuid "11ffe124-f6ab-44a3-87aa-31a9b9667dbc")
 	)
 	(no_connect
-		(at 132.08 129.54)
-		(uuid "2db59da3-f6e0-4f30-a27b-685782903eac")
-	)
-	(no_connect
 		(at 213.36 128.27)
 		(uuid "9d5807a8-6703-47d9-b92d-05d8a2aec19c")
 	)
@@ -4302,16 +4298,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 137.16) (xy 142.24 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad1976ba-b010-478e-a8e1-6d02e54ce2b9")
-	)
-	(wire
-		(pts
 			(xy 222.25 125.73) (xy 213.36 125.73)
 		)
 		(stroke
@@ -4329,16 +4315,6 @@
 			(type default)
 		)
 		(uuid "b2d084b8-02e3-4df7-982b-d1446eaf22f9")
-	)
-	(wire
-		(pts
-			(xy 142.24 111.76) (xy 142.24 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc9a2905-7ffc-4aca-9c2f-3dcd8d49bf45")
 	)
 	(wire
 		(pts
@@ -4557,30 +4533,6 @@
 		(uuid "0fd9354a-8fdb-4bef-8263-10763a4c4729")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 122.1173 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "MCU_RESET"
-		(shape output)
-		(at 132.08 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "12d7d34b-4c57-4d3e-9d8e-a13a4d9b5d17")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.3302 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5024,30 +4976,6 @@
 			)
 		)
 	)
-	(global_label "SWDIO"
-		(shape bidirectional)
-		(at 132.08 127 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9f77e848-c024-46b4-80f9-a9c33a86b156")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.1173 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "MCU_RESET"
 		(shape output)
 		(at 132.08 78.74 180)
@@ -5061,30 +4989,6 @@
 		(uuid "a1598ba7-30d5-4129-ae7a-67d893806540")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.3302 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "SWCLK"
-		(shape output)
-		(at 132.08 124.46 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a3174905-2412-4183-bf1c-7da0fe628afa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.8658 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5743,103 +5647,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL")
-		(at 139.7 124.46 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "47d9c862-f1d3-46d2-b875-cd93c16189ba")
-		(property "Reference" "J13"
-			(at 146.05 123.1899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_ARM_SWD_TagConnect_TC2030-NL"
-			(at 146.05 125.7299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
-			(at 139.7 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/TC2030-CTX_1.pdf"
-			(at 139.7 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Tag-Connect ARM Cortex SWD JTAG connector, 6 pin, no legs"
-			(at 139.7 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "d54c5881-15ca-4a08-ac12-c285008d6a8d")
-		)
-		(pin "5"
-			(uuid "c2cfc504-decd-4c76-8764-e2533d6156dd")
-		)
-		(pin "4"
-			(uuid "b5e3a0b1-9d76-4f78-a362-cf2fccf30d86")
-		)
-		(pin "1"
-			(uuid "5602d334-4e59-4ac7-a216-94dab68ad69e")
-		)
-		(pin "3"
-			(uuid "96afddc2-8fc9-4ef9-9f02-610ec1ebf395")
-		)
-		(pin "2"
-			(uuid "ba992d82-fa69-4f8a-83cc-d82d153dd688")
-		)
-		(instances
-			(project "uca-dkaiot2-kicad"
-				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
-					(reference "J13")
-					(unit 1)
-					(variant
-						(name "Ambient")
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 222.25 123.19 0)
 		(unit 1)
@@ -6188,84 +5995,6 @@
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "#PWR074")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V0")
-		(at 142.24 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58c4f77d-6068-43ba-813e-b5ecb92aa73c")
-		(property "Reference" "#PWR071"
-			(at 142.24 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V"
-			(at 142.24 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 142.24 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2a82f94f-175f-471e-b80d-85347a6a31ad")
-		)
-		(instances
-			(project "uca-dkaiot2-kicad"
-				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
-					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -7133,7 +6862,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "88597e61-77aa-4ad7-be30-0b8028d3fa39")
-		(property "Reference" "J9"
+		(property "Reference" "J9J13"
 			(at 146.05 82.5499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7155,7 +6884,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+		(property "Footprint" "footprints:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical_TopBottom"
 			(at 139.7 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7209,7 +6938,7 @@
 		(instances
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
-					(reference "J9")
+					(reference "J9J13")
 					(unit 1)
 					(variant
 						(name "Ambient")
@@ -7778,84 +7507,6 @@
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 142.24 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dd72621e-4995-48a0-8a03-4ff53a74a4f1")
-		(property "Reference" "#PWR072"
-			(at 142.24 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 142.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1802ea8f-0d33-4ebb-b27a-1f61261adbd0")
-		)
-		(instances
-			(project "uca-dkaiot2-kicad"
-				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
-					(reference "#PWR072")
 					(unit 1)
 				)
 			)
