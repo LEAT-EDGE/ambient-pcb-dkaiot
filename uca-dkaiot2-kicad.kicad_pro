@@ -60,10 +60,10 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
-          "min_island_area": 10.0,
+          "min_clearance": 0.5,
+          "min_island_area": 0.0013161349,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
@@ -672,6 +672,10 @@
       {
         "netclass": "ANT",
         "pattern": "*E22_ANT*"
+      },
+      {
+        "netclass": "ANT",
+        "pattern": "*J10-In*"
       }
     ]
   },
@@ -821,7 +825,7 @@
         "uuid": "13b7de53-ecff-4b32-b513-b5b471d022a3"
       }
     ],
-    "used_designators": "J2J14,JP1",
+    "used_designators": "#PWR71-72,J2,J9,J13-14,J24-26,R28",
     "variants": [
       {
         "description": "BOM variant for Ambient project: unnecessary sensors removed",
