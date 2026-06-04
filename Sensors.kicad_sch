@@ -5653,6 +5653,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/14d734f9-3275-482e-9982-51867d0b2093"
 					(reference "U11")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -6272,6 +6276,7 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(dnp yes)
 					)
 				)
 			)

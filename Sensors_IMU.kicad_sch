@@ -424,6 +424,44 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin input line
 					(at -10.16 -2.54 0)
 					(length 2.54)
@@ -532,6 +570,25 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin output line
 					(at 12.7 2.54 180)
 					(length 2.54)
@@ -598,6 +655,44 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4946,6 +5041,21 @@
 		)
 		(pin "1"
 			(uuid "57a79152-0bcd-4534-8c93-9ff3dd68e40b")
+		)
+		(pin "2"
+			(uuid "e90c9eb9-7e24-41ac-9b52-90415c82e846")
+		)
+		(pin "3"
+			(uuid "b9d2a731-cd10-405d-9350-cd14b63d8a00")
+		)
+		(pin "16"
+			(uuid "90ea8d00-b3ad-40a4-b090-1e313ae13fe5")
+		)
+		(pin "10"
+			(uuid "bec07f18-2b3e-4735-a952-4a3080ecf435")
+		)
+		(pin "15"
+			(uuid "bbc4432f-6e79-4588-975e-89f743879f31")
 		)
 		(instances
 			(project "uca-dkaiot2-kicad"

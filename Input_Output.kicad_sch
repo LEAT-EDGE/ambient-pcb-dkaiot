@@ -5813,116 +5813,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
-		(at 71.12 118.11 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "54536430-2296-46e0-8515-52ed06f815e3")
-		(property "Reference" "J2J14"
-			(at 75.438 128.778 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_02x06_Odd_Even"
-			(at 75.438 131.318 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical"
-			(at 71.12 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 71.12 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "57338031-3aec-4d41-bcba-def11442d34b")
-		)
-		(pin "6"
-			(uuid "cfbfcc5f-a0bb-4930-8366-78dc654a564c")
-		)
-		(pin "4"
-			(uuid "2a23aa11-920f-413d-b0ef-95e164ed919f")
-		)
-		(pin "3"
-			(uuid "7f652073-1a52-4bbf-858b-7f8faa8129e9")
-		)
-		(pin "9"
-			(uuid "b45aa6da-3f9f-4762-b8c1-328729a2cfca")
-		)
-		(pin "10"
-			(uuid "89e10acb-ab8d-4002-8588-cca487cc4dd2")
-		)
-		(pin "1"
-			(uuid "1168b63b-3ea5-4785-b0e9-9f7e204833dc")
-		)
-		(pin "12"
-			(uuid "b81d6b28-1915-438a-ba6a-bb32f52adea0")
-		)
-		(pin "7"
-			(uuid "77a2fa41-4ada-4f5a-8720-5662403fe984")
-		)
-		(pin "5"
-			(uuid "0f15cf10-bc65-4bd2-b9c9-29fef0a28c09")
-		)
-		(pin "8"
-			(uuid "bcf2c0e9-8fa1-4035-99d3-55bfbdcf41ab")
-		)
-		(pin "11"
-			(uuid "0422589d-c592-446b-a9f2-01a6715cf665")
-		)
-		(instances
-			(project "uca-dkaiot2-kicad"
-				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
-					(reference "J2J14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V0")
 		(at 52.07 157.48 0)
 		(unit 1)
@@ -6086,6 +5976,7 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(dnp yes)
 					)
 				)
 			)
@@ -6412,6 +6303,7 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(dnp yes)
 					)
 				)
 			)
@@ -6948,6 +6840,115 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x06_Odd_Even")
+		(at 68.58 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8bea2ffe-814f-43a6-8f35-f26f026266cf")
+		(property "Reference" "J2J14"
+			(at 73.406 128.524 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Odd_Even"
+			(at 73.406 131.064 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x06_P2.54mm_Vertical"
+			(at 68.58 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4e0af86c-6ff7-4f95-849a-673cf9b1d309")
+		)
+		(pin "6"
+			(uuid "63d7c556-a48f-4b38-91a9-a4ba2e56031b")
+		)
+		(pin "4"
+			(uuid "b1c6e99f-8e6e-421d-aeaa-36d9ed1db994")
+		)
+		(pin "3"
+			(uuid "fedccced-1c39-4bfc-97f2-1848b8ff244a")
+		)
+		(pin "9"
+			(uuid "f0ee36dd-1bd3-4a93-9092-e4b1e4ec405d")
+		)
+		(pin "10"
+			(uuid "b6ca0492-4ff7-4ded-a186-e7bc7782020f")
+		)
+		(pin "1"
+			(uuid "81bc02ed-d661-47da-9ab2-f439985c97c9")
+		)
+		(pin "12"
+			(uuid "787f6b3b-59ba-4503-88ec-75ac764d45f6")
+		)
+		(pin "7"
+			(uuid "88751757-4cb2-4443-8452-801ad5b17557")
+		)
+		(pin "5"
+			(uuid "cd605314-fcf4-413e-8d0a-7833f6161c63")
+		)
+		(pin "8"
+			(uuid "aa8fe651-4adb-4469-b4ef-d02fd5831082")
+		)
+		(pin "11"
+			(uuid "a7bdb1f5-f5c0-498d-bfdb-88bf24af3882")
+		)
+		(instances
+			(project "uca-dkaiot2-kicad"
+				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
+					(reference "J2J14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V0")
 		(at 44.45 54.61 0)
 		(unit 1)
@@ -7344,6 +7345,7 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
 		(at 140.97 54.61 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7353,7 +7355,7 @@
 		(dnp no)
 		(uuid "daecc452-4713-455a-94d8-d3f05f0d51b0")
 		(property "Reference" "J7"
-			(at 144.018 53.34 0)
+			(at 144.018 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7364,7 +7366,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 144.018 55.88 0)
+			(at 144.018 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7429,6 +7431,7 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(dnp yes)
 					)
 				)
 			)
