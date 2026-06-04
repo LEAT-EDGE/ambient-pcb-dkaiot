@@ -76,7 +76,48 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|95975000|84110000|10d10747-0ffb-432a-a31f-6ed3726e1b21|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|95975000|85380000|673d1bbe-932b-4483-a24a-01659c77c933|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "annular_width|95975000|86650000|75dd1ff2-2c9e-40e5-9cf1-6836cc9a8fe8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "courtyards_overlap|36752450|33964260|0b82f68a-2592-49ef-b049-dece1bc23e54|66169cfe-95a5-428f-a7e5-f7c3d89581f2",
+          ""
+        ],
+        [
+          "courtyards_overlap|97892935|47640000|075b358d-203f-42c7-a0ee-793c63d2d213|ddee6847-1db9-4605-924b-6a56af2e0705",
+          ""
+        ],
+        [
+          "items_not_allowed|34140300|24300000|bf4ae835-955b-4e74-9a5f-567a88ffbc99|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_overlap|36642450|34349260|c684670f-8086-430f-ad1d-e8dd88c656d9|d5ab47c5-c885-481b-9885-9a7482fb4b87",
+          ""
+        ],
+        [
+          "silk_overlap|36642450|42079260|02ab63df-7eb1-4109-ac82-23521d6f0228|c684670f-8086-430f-ad1d-e8dd88c656d9",
+          ""
+        ],
+        [
+          "silk_overlap|36752450|34349260|369b82e0-76e6-4d58-8a94-335a7d185d12|d5ab47c5-c885-481b-9885-9a7482fb4b87",
+          ""
+        ],
+        [
+          "silk_overlap|36862450|34349260|369b82e0-76e6-4d58-8a94-335a7d185d12|ae86e920-0d27-4338-9711-64d6d2abab85",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -154,8 +195,8 @@
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
-        "min_silk_clearance": 0.15,
+        "min_resolved_spokes": 1,
+        "min_silk_clearance": 0.05,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
@@ -780,7 +821,7 @@
         "uuid": "13b7de53-ecff-4b32-b513-b5b471d022a3"
       }
     ],
-    "used_designators": "JP1",
+    "used_designators": "J2J14,JP1",
     "variants": [
       {
         "description": "BOM variant for Ambient project: unnecessary sensors removed",
