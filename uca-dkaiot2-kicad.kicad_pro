@@ -60,12 +60,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
-          "min_island_area": 0.0013161349,
+          "min_clearance": 0.4,
+          "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
+          "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.4,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -90,6 +90,10 @@
           ""
         ],
         [
+          "copper_edge_clearance|61277322|95000000|cd9b2d91-d60c-4f9c-b210-b5069992a08c|142825f0-5eb1-47ea-87ed-af0aedfe5fc2",
+          ""
+        ],
+        [
           "courtyards_overlap|36752450|33964260|0b82f68a-2592-49ef-b049-dece1bc23e54|66169cfe-95a5-428f-a7e5-f7c3d89581f2",
           ""
         ],
@@ -98,7 +102,11 @@
           ""
         ],
         [
-          "items_not_allowed|34140300|24300000|bf4ae835-955b-4e74-9a5f-567a88ffbc99|00000000-0000-0000-0000-000000000000",
+          "silk_over_copper|72582450|24999260|3a11a6fa-db03-4606-81c3-ef1d8cf93f05|b939d980-e828-43dd-854b-b9431cfeeb5f",
+          ""
+        ],
+        [
+          "silk_over_copper|72582450|24999260|5270afa1-49cb-4dd0-8219-c813f0c32f24|b939d980-e828-43dd-854b-b9431cfeeb5f",
           ""
         ],
         [
@@ -825,7 +833,7 @@
         "uuid": "13b7de53-ecff-4b32-b513-b5b471d022a3"
       }
     ],
-    "used_designators": "#PWR71-72,J2,J9,J13-14,J24-26,R28",
+    "used_designators": "",
     "variants": [
       {
         "description": "BOM variant for Ambient project: unnecessary sensors removed",
