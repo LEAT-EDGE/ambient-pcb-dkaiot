@@ -5675,6 +5675,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/32a654bf-d623-4518-9392-f2b212dc4f8b"
 					(reference "J26")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -6149,6 +6153,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/32a654bf-d623-4518-9392-f2b212dc4f8b"
 					(reference "J25")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)
@@ -6909,6 +6917,10 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/32a654bf-d623-4518-9392-f2b212dc4f8b"
 					(reference "J24")
 					(unit 1)
+					(variant
+						(name "Ambient")
+						(dnp yes)
+					)
 				)
 			)
 		)

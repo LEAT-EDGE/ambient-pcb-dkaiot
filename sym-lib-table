@@ -4,4 +4,5 @@
 	(lib (name "Onsemi_NCV8170") (type "KiCad") (uri "${KIPRJMOD}/libraries/Onsemi_NCV8170.kicad_sym") (options "") (descr ""))
 	(lib (name "Quectel_L96") (type "KiCad") (uri "${KIPRJMOD}/libraries/Quectel_L96.kicad_sym") (options "") (descr ""))
 	(lib (name "Kionix_KX023") (type "KiCad") (uri "${KIPRJMOD}/libraries/Kionix_KX023.kicad_sym") (options "") (descr ""))
+	(lib (name "Logo_Open_Hardware") (type "KiCad") (uri "${KIPRJMOD}/libraries/Logo_Open_Hardware.kicad_sym") (options "") (descr ""))
 )

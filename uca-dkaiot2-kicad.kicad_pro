@@ -102,6 +102,10 @@
           ""
         ],
         [
+          "items_not_allowed|34140300|24300000|bf4ae835-955b-4e74-9a5f-567a88ffbc99|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "silk_edge_clearance|25017450|43149260|48af446c-cc7d-416e-bab3-04c35095be6a|50fbd077-8fb1-4eda-a92c-37176d17789b",
           ""
         ],
@@ -865,7 +869,7 @@
         "uuid": "13b7de53-ecff-4b32-b513-b5b471d022a3"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR95",
     "variants": [
       {
         "description": "BOM variant for Ambient project: unnecessary sensors removed",

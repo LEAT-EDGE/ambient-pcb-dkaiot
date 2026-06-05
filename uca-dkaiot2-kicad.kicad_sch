@@ -11,7 +11,7 @@
 		(company "//piernov")
 	)
 	(lib_symbols
-		(symbol "Graphic:Logo_Open_Hardware_Large"
+		(symbol "Logo_Open_Hardware:Logo_Open_Hardware_Large"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board no)
@@ -161,6 +161,24 @@
 						(type outline)
 					)
 				)
+				(pin input line
+					(at 0 13.97 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
@@ -263,6 +281,151 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 157.48 128.27) (xy 182.88 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c10da56-a3b6-459b-be7f-746e3b7d7661")
+	)
+	(wire
+		(pts
+			(xy 157.48 130.81) (xy 157.48 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51874d57-70c8-4ffa-a9c1-a687fb580e60")
+	)
+	(wire
+		(pts
+			(xy 182.88 128.27) (xy 182.88 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63534c84-01d0-48b6-a8d7-b5c2da1f4b98")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole")
@@ -417,11 +580,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Graphic:Logo_Open_Hardware_Large")
+		(lib_id "Logo_Open_Hardware:Logo_Open_Hardware_Large")
 		(at 157.48 144.78 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -429,13 +592,14 @@
 		(fields_autoplaced yes)
 		(uuid "36412d32-01f4-44a8-b977-f2a84a8b0529")
 		(property "Reference" "SYM1"
-			(at 157.48 132.08 0)
+			(at 170.18 143.421 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "Logo_Open_Hardware_Large"
@@ -482,10 +646,102 @@
 				)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 157.48 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a0bb584e-e8bd-4e47-89e6-7edc98727348")
+		)
 		(instances
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3"
 					(reference "SYM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 182.88 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb371031-9bbb-4d1b-9fdc-b43b8c7a3fa1")
+		(property "Reference" "#PWR095"
+			(at 182.88 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "550e4d85-fc25-4b00-8249-644c47e249ac")
+		)
+		(instances
+			(project "uca-dkaiot2-kicad"
+				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3"
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
