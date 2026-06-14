@@ -3,8 +3,8 @@
 Mainboard PCB for the [Ambient project](https://github.com/LEAT-EDGE/ambient).
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="webp/front.webp" alt="Antenna front" width="400">
-    <img src="webp/back.webp" alt="Antenna back" width="400">
+    <img src="webp/front.webp" alt="Mainboard front" width="400">
+    <img src="webp/back.webp" alt="Mainboard back" width="400">
 </div>
 
 ## Main features
