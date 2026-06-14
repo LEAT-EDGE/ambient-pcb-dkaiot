@@ -194,7 +194,7 @@ Recommended automated assembly for top-side only.
 Manual assembly for top side:
 - J20, J21, J22 and J23 pins (through-hole), to be inserted or cut flush with the back side.
 
-Manuel assembly for bottom side:
+Manual assembly for bottom side:
 - C16 and C42 capacitors (SMD),
 - J2J14 and J4 connectors (through-hole).
 
