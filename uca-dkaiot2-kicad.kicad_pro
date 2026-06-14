@@ -102,10 +102,6 @@
           ""
         ],
         [
-          "items_not_allowed|34140300|24300000|bf4ae835-955b-4e74-9a5f-567a88ffbc99|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "silk_edge_clearance|25017450|43149260|48af446c-cc7d-416e-bab3-04c35095be6a|50fbd077-8fb1-4eda-a92c-37176d17789b",
           ""
         ],
@@ -338,7 +334,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v0.1"
+      "sch_revision": "v0.2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -360,11 +356,43 @@
   "erc": {
     "erc_exclusions": [
       [
+        "footprint_link_issues|1016000|1320800|02caaa4d-584a-4d05-8e4d-5e68c8505552|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|1016000|1574800|63240a12-6569-4b29-967d-5cf34b96eec7|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
         "footprint_link_issues|1879600|1143000|5d4c2cf2-6c3a-4d72-b138-9a7ae70bdf4b|00000000-0000-0000-0000-000000000000|||",
         ""
       ],
       [
+        "footprint_link_issues|647700|1308100|6ffb009c-5ce4-4043-b00f-07098b434674|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|863600|1320800|889268d6-eeeb-4a56-bc7a-1538eeb2a832|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|863600|1574800|ddb26da4-b580-4657-96e0-66db40d2b903|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|939800|1320800|4b8434c4-f4c2-4c4b-8a3d-013edf0e5146|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_link_issues|939800|1574800|ac5e5a69-9428-4481-9565-affebbb8f634|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
         "multiple_net_names|1409700|914400|06f47371-1e9e-4d26-a23f-948f4d9d44db|e13c53ab-b41f-43a1-a5f2-05b0b898d1ff|/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08|/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08|/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08",
+        ""
+      ],
+      [
+        "multiple_net_names|368300|254000|06f47371-1e9e-4d26-a23f-948f4d9d44db|f8989ce0-7126-444e-9b12-e3d63d6ec749|/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08|/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08|/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08",
         ""
       ],
       [
@@ -869,7 +897,7 @@
         "uuid": "13b7de53-ecff-4b32-b513-b5b471d022a3"
       }
     ],
-    "used_designators": "#PWR95",
+    "used_designators": "",
     "variants": [
       {
         "description": "BOM variant for Ambient project: unnecessary sensors removed",

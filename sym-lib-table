@@ -5,4 +5,8 @@
 	(lib (name "Quectel_L96") (type "KiCad") (uri "${KIPRJMOD}/libraries/Quectel_L96.kicad_sym") (options "") (descr ""))
 	(lib (name "Kionix_KX023") (type "KiCad") (uri "${KIPRJMOD}/libraries/Kionix_KX023.kicad_sym") (options "") (descr ""))
 	(lib (name "Logo_Open_Hardware") (type "KiCad") (uri "${KIPRJMOD}/libraries/Logo_Open_Hardware.kicad_sym") (options "") (descr ""))
+	(lib (name "Nisshinbo_R5478N") (type "KiCad") (uri "${KIPRJMOD}/libraries/Nisshinbo_R5478N.kicad_sym") (options "") (descr ""))
+	(lib (name "Sensirion_SGP30") (type "KiCad") (uri "${KIPRJMOD}/libraries/Sensirion_SGP30.kicad_sym") (options "") (descr ""))
+	(lib (name "ST_LSM303AH") (type "KiCad") (uri "${KIPRJMOD}/libraries/ST_LSM303AH.kicad_sym") (options "") (descr ""))
+	(lib (name "HOPERF_HP203B") (type "KiCad") (uri "${KIPRJMOD}/libraries/HOPERF_HP203B.kicad_sym") (options "") (descr ""))
 )

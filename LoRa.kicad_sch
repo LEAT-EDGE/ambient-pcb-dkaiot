@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "UCA DKAIoT2 — Wireless")
-		(date "2026-06-05")
-		(rev "v0.1")
+		(date "2026-06-14")
+		(rev "v0.2")
 		(company "//piernov")
 	)
 	(lib_symbols
@@ -1006,10 +1006,10 @@
 					)
 				)
 				(pin passive line
-					(at 0 15.24 270)
+					(at 0 -15.24 90)
 					(length 2.54)
 					(hide yes)
-					(name "VCC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)

@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "UCA DKAIoT2")
-		(date "2026-06-05")
-		(rev "v0.1")
+		(date "2026-06-14")
+		(rev "v0.2")
 		(company "//piernov")
 	)
 	(lib_symbols
@@ -584,7 +584,7 @@
 		(at 157.48 144.78 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
@@ -636,17 +636,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, large"
-			(at 157.48 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 157.48 144.78 0)
 			(hide yes)
 			(show_name no)
