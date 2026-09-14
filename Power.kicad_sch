@@ -700,6 +700,230 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:Battery_Cell"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "BT"
+				(at 2.54 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Battery_Cell"
+				(at 2.54 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 1.524 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single-cell battery"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Type" "DC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=+ 2=-"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "battery cell"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Battery_Cell_0_1"
+				(rectangle
+					(start -2.286 1.778)
+					(end 2.286 1.524)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -1.524 1.016)
+					(end 1.524 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.778) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 0 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.048) (xy 1.778 3.048)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.556) (xy 1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Battery_Cell_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
@@ -4041,6 +4265,12 @@
 		(uuid "04c4381e-5ab6-47ac-88f4-679b39f39b64")
 	)
 	(junction
+		(at 49.53 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "123b30ce-1e0a-454d-8fbc-45487fa156d7")
+	)
+	(junction
 		(at 87.63 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4353,6 +4583,12 @@
 		(uuid "d76901c1-37d2-45ed-8e37-0a5ebaddcad8")
 	)
 	(junction
+		(at 38.1 191.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4aad59a-8506-437a-8ad9-64f966918cfd")
+	)
+	(junction
 		(at 115.57 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4616,7 +4852,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 191.77) (xy 40.64 191.77)
+			(xy 35.56 191.77) (xy 38.1 191.77)
 		)
 		(stroke
 			(width 0)
@@ -4633,6 +4869,16 @@
 			(type default)
 		)
 		(uuid "1b69d26a-1f65-4836-993c-83de80c93273")
+	)
+	(wire
+		(pts
+			(xy 38.1 191.77) (xy 40.64 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b74e7a5-ad3f-4004-bf43-b00fa0ce60f7")
 	)
 	(wire
 		(pts
@@ -5066,6 +5312,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 194.31) (xy 49.53 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5011e1cc-780f-4ba9-88f3-28903b1cec6b")
+	)
+	(wire
+		(pts
 			(xy 96.52 162.56) (xy 99.06 162.56)
 		)
 		(stroke
@@ -5486,7 +5742,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 176.53) (xy 40.64 176.53)
+			(xy 35.56 176.53) (xy 40.64 176.53)
 		)
 		(stroke
 			(width 0)
@@ -5793,6 +6049,16 @@
 			(type default)
 		)
 		(uuid "a6f0fa6e-e0b3-471a-9833-edbe3dec436b")
+	)
+	(wire
+		(pts
+			(xy 49.53 194.31) (xy 49.53 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f76426-2aae-43b7-8a8a-74bdc61f84ed")
 	)
 	(wire
 		(pts
@@ -6133,6 +6399,16 @@
 			(type default)
 		)
 		(uuid "cd6614e0-b49d-416a-8691-10a1fb9eb6fd")
+	)
+	(wire
+		(pts
+			(xy 38.1 191.77) (xy 38.1 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf2f0202-2f20-472b-b1eb-6f76de3a27fc")
 	)
 	(wire
 		(pts
@@ -6586,7 +6862,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 184.15) (xy 40.64 184.15)
+			(xy 35.56 184.15) (xy 40.64 184.15)
 		)
 		(stroke
 			(width 0)
@@ -6784,7 +7060,7 @@
 	)
 	(global_label "V_PERIPH_ON_OFF"
 		(shape input)
-		(at 38.1 176.53 180)
+		(at 35.56 176.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6794,7 +7070,7 @@
 		)
 		(uuid "2b3c56cb-af34-43df-9e36-7a122b9ae3b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.0604 176.53 0)
+			(at 15.5204 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7048,7 +7324,7 @@
 	)
 	(global_label "SD_ON_OFF"
 		(shape input)
-		(at 38.1 191.77 180)
+		(at 35.56 191.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7058,7 +7334,7 @@
 		)
 		(uuid "96b505cb-693e-4d15-af6a-0fcc06975ce6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.5314 191.77 0)
+			(at 21.9914 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7072,7 +7348,7 @@
 	)
 	(global_label "GPS_On_Off"
 		(shape input)
-		(at 38.1 184.15 180)
+		(at 35.56 184.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7082,7 +7358,7 @@
 		)
 		(uuid "c0acbd39-91a8-4f01-9176-b51fa86ef297")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 24.1687 184.15 0)
+			(at 21.6287 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7221,7 +7497,7 @@
 			(justify right bottom)
 		)
 		(uuid "548632d5-4a38-4361-8d59-164d3a70f05c")
-		(property "Net Class" ""
+		(property "Netclass" ""
 			(at -130.81 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7251,10 +7527,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "01f6762a-9de8-4b21-b892-2dd449e49ada")
 		(property "Reference" "U14"
 			(at 270.51 45.72 0)
@@ -7325,7 +7601,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -7415,9 +7693,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "052b859b-ef4d-4ae7-9c0f-a10c4b2d7661")
 		(property "Reference" "R22"
@@ -7486,6 +7764,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -7497,10 +7778,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "05855ee6-71af-4693-a4c2-17ecb59a6166")
 		(property "Reference" "C35"
 			(at 213.868 99.314 0)
@@ -7570,7 +7851,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -7654,9 +7937,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "C16")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -7745,10 +8025,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "109bee95-1738-4a87-ace9-d029338f7372")
 		(property "Reference" "D6"
 			(at 187.706 54.356 90)
@@ -7829,6 +8109,10 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(dnp no)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -7910,9 +8194,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "R54")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -7923,10 +8204,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "16590e5c-c531-4b51-9e12-55c81fc46edd")
 		(property "Reference" "J11"
@@ -7997,7 +8278,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -8009,10 +8292,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "1a56aed7-74d6-4e1a-9f1f-bec9c58e3679")
 		(property "Reference" "J_PERIPH_CTRL1"
@@ -8080,6 +8363,10 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(dnp no)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -8163,9 +8450,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "C56")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -8324,9 +8608,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "R55")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -8409,9 +8690,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "C30")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -8422,10 +8700,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "2a8e8ca4-68eb-4a46-8fe7-e52a2a6473c2")
 		(property "Reference" "C33"
 			(at 213.868 48.514 0)
@@ -8495,8 +8773,125 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 140.97 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2edd4eb8-b905-4531-bf4b-4d4a62cc5f7b")
+		(property "Reference" "BT1"
+			(at 144.78 140.3984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery_Cell"
+			(at 144.78 142.9384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_MPD_BK-18650-PC2"
+			(at 140.97 141.986 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 141.986 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell battery"
+			(at 140.97 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "V"
+			(at 140.97 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "DC"
+			(at 140.97 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 140.97 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "181c09a2-1f8c-40b3-bc46-6bb3dee92d69")
+		)
+		(pin "2"
+			(uuid "fd553c39-08c0-46f8-bda7-e1f21170dbb1")
+		)
+		(instances
+			(project "uca-dkaiot2-kicad"
+				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
+					(reference "BT1")
+					(unit 1)
 				)
 			)
 		)
@@ -8579,9 +8974,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "C51")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -8670,10 +9062,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "35081b2c-b1b6-4c7a-b41a-10a29e8ab730")
 		(property "Reference" "J4"
@@ -8744,6 +9136,10 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(dnp no)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -8755,10 +9151,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "39b960d6-b8f3-4bca-9954-ffcfc1ebe49c")
 		(property "Reference" "R39"
 			(at 92.456 130.302 0)
@@ -8828,7 +9224,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -8840,10 +9238,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "3a27bea0-a96b-4d0e-b73b-3aaf8d3f4800")
 		(property "Reference" "R44"
 			(at 93.726 181.102 0)
@@ -8913,7 +9311,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -8925,10 +9325,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "3b7167cd-2bf6-4c45-bcb8-475f3ccd720a")
 		(property "Reference" "R41"
 			(at 117.094 156.21 0)
@@ -8998,7 +9398,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -9160,9 +9562,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "C29")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -9412,9 +9811,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "D5")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -9425,10 +9821,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "59fdfe77-0f89-4805-9d98-f8977eebe4b9")
 		(property "Reference" "R43"
 			(at 118.364 181.61 0)
@@ -9498,7 +9894,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -9593,9 +9991,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "U10")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -9606,10 +10001,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5d4c2cf2-6c3a-4d72-b138-9a7ae70bdf4b")
 		(property "Reference" "U3"
@@ -9686,7 +10081,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -9777,10 +10174,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "5df8ec6e-4824-4613-b5df-040d640603ec")
 		(property "Reference" "C34"
 			(at 224.79 48.26 0)
@@ -9850,7 +10247,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -10104,10 +10503,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6b59f849-a486-4b4e-a066-1bd45cc7d971")
 		(property "Reference" "R21"
@@ -10176,7 +10575,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -10260,9 +10661,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "C42")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -10273,10 +10671,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "6d7017d1-9ffc-49be-9f60-1ec41285a6e4")
 		(property "Reference" "U13"
 			(at 270.764 58.42 0)
@@ -10347,7 +10745,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -10359,10 +10759,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "6ec5b720-d35f-4a4f-8a88-7169216aea7e")
 		(property "Reference" "R19"
@@ -10431,7 +10831,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -10605,9 +11007,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "U33")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -10618,10 +11017,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "7806a132-3611-459b-bb74-6228e63722f2")
 		(property "Reference" "U30"
 			(at 100.076 164.846 90)
@@ -10694,7 +11093,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -10778,9 +11179,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "C28")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -10791,10 +11189,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7c2a9f79-6eb2-48bd-874e-0518b3050758")
 		(property "Reference" "R56"
@@ -10863,6 +11261,10 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(dnp no)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -10952,9 +11354,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "8188cc57-3823-4bdd-84d9-40f957a932fd")
 		(property "Reference" "R23"
@@ -11023,6 +11425,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -11117,9 +11522,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "D4")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -11130,10 +11532,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8f01c66e-4d65-4d85-9281-0cf989d3f075")
 		(property "Reference" "C27"
@@ -11204,6 +11606,10 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(dnp no)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -11371,10 +11777,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "931e2107-a30e-4090-b9f3-5acda99aa989")
 		(property "Reference" "U28"
 			(at 100.076 139.446 90)
@@ -11447,7 +11853,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -11459,10 +11867,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "99b41230-b929-4f00-a37e-d866caed3d10")
 		(property "Reference" "R16"
@@ -11533,6 +11941,10 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(dnp no)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -11544,10 +11956,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "9acde070-7325-4889-9ba1-3c5926d7b9a8")
 		(property "Reference" "U12"
 			(at 253.746 56.896 0)
@@ -11629,7 +12041,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -11641,10 +12055,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "9cada066-d840-4b9d-ae2c-13ab64b0ba17")
 		(property "Reference" "U31"
 			(at 101.346 190.246 90)
@@ -11717,7 +12131,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -11812,9 +12228,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "U26")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -11897,9 +12310,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "C55")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -12380,10 +12790,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "ad273b57-39ac-44c2-93a7-c8be1167078b")
 		(property "Reference" "U17"
 			(at 270.51 96.52 0)
@@ -12454,7 +12864,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -12700,10 +13112,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b17ee5b6-0be9-43d7-82e9-cc80e26e7b73")
 		(property "Reference" "D2"
@@ -12785,6 +13197,10 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(dnp no)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -12796,10 +13212,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b425277f-7ed4-4343-ac3c-b29fbe43f95c")
 		(property "Reference" "R15"
@@ -12868,6 +13284,10 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(dnp no)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -12951,9 +13371,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "C31")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -13198,10 +13615,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c774cd0e-9780-48ef-8dca-6ca57b8ef82a")
 		(property "Reference" "J_PERIPH_3V1"
@@ -13269,6 +13686,10 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(dnp no)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -13280,10 +13701,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "c8c4da3a-45e3-4008-af37-8101138b65c7")
 		(property "Reference" "U15"
 			(at 253.746 107.696 0)
@@ -13365,7 +13786,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -13377,10 +13800,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "ca1003f4-f036-495c-8e28-e9c842954a5a")
 		(property "Reference" "C36"
 			(at 224.79 99.06 0)
@@ -13450,7 +13873,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -13462,10 +13887,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "ccdbbc20-27fb-424c-ba1a-2d7b99f4f2e4")
 		(property "Reference" "R18"
 			(at 226.822 30.48 0)
@@ -13535,7 +13960,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -13625,10 +14052,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ce0c9592-03c3-48fa-aa1a-0f6bddbf730c")
 		(property "Reference" "D3"
@@ -13710,7 +14137,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -13794,9 +14223,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "C54")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -14035,9 +14461,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/3878d021-3cdc-4ba7-b903-79fa4a2caa08"
 					(reference "C57")
 					(unit 1)
-					(variant
-						(name "Ambient")
-					)
 				)
 			)
 		)
@@ -14127,10 +14550,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "dd4498c4-f23a-4eb0-a716-e2aed42f5e37")
 		(property "Reference" "J12"
@@ -14201,7 +14624,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -14213,10 +14638,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "df1ee7e7-4894-4e62-9947-76e8b723ca78")
 		(property "Reference" "R20"
 			(at 226.06 80.772 0)
@@ -14286,7 +14711,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -14611,10 +15038,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "e61fb098-7d0f-4646-b027-fa0df8cd4a56")
 		(property "Reference" "U16"
 			(at 270.764 109.22 0)
@@ -14685,7 +15112,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -14697,10 +15126,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "e72a8f76-fd6e-4148-8d04-e885263dbca0")
 		(property "Reference" "U9"
 			(at 144.78 44.45 0)
@@ -14792,6 +15221,10 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(dnp no)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -14803,10 +15236,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "e9fa1597-5a8c-4404-b45d-b830df38e73c")
 		(property "Reference" "J_3V1"
@@ -14874,6 +15307,10 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(dnp no)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -14964,10 +15401,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "eba0747e-bcf9-4e82-a1e8-a55639679f0a")
 		(property "Reference" "C26"
@@ -15038,6 +15475,10 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
+						(dnp no)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -15049,10 +15490,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "ee3e38b9-d95d-4dd2-805d-0831ae440799")
 		(property "Reference" "R38"
 			(at 117.094 130.81 0)
@@ -15122,7 +15563,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -15134,10 +15577,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "f84d7540-a164-47db-9a59-ba09c8480802")
 		(property "Reference" "R42"
 			(at 92.456 155.702 0)
@@ -15207,7 +15650,9 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(on_board yes)
+						(in_pos_files yes)
 					)
 				)
 			)

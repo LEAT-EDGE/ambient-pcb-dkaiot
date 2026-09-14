@@ -761,6 +761,7 @@
       "netlist": "",
       "plot": "gerbers/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -901,7 +902,7 @@
         "uuid": "13b7de53-ecff-4b32-b513-b5b471d022a3"
       }
     ],
-    "used_designators": "",
+    "used_designators": "BT1,R57,#PWR96-99,C58-59,U23,U25",
     "variants": [
       {
         "description": "BOM variant for Ambient project: unnecessary sensors removed",
