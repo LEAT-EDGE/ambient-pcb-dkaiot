@@ -78,27 +78,7 @@
       ],
       "drc_exclusions": [
         [
-          "annular_width|95975000|84110000|10d10747-0ffb-432a-a31f-6ed3726e1b21|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "annular_width|95975000|85380000|673d1bbe-932b-4483-a24a-01659c77c933|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "annular_width|95975000|86650000|75dd1ff2-2c9e-40e5-9cf1-6836cc9a8fe8|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "copper_edge_clearance|61277322|95000000|cd9b2d91-d60c-4f9c-b210-b5069992a08c|142825f0-5eb1-47ea-87ed-af0aedfe5fc2",
-          ""
-        ],
-        [
           "courtyards_overlap|36752450|33964260|0b82f68a-2592-49ef-b049-dece1bc23e54|66169cfe-95a5-428f-a7e5-f7c3d89581f2",
-          ""
-        ],
-        [
-          "courtyards_overlap|97892935|47640000|075b358d-203f-42c7-a0ee-793c63d2d213|ddee6847-1db9-4605-924b-6a56af2e0705",
           ""
         ],
         [
@@ -126,19 +106,7 @@
           ""
         ],
         [
-          "silk_edge_clearance|61277322|95000000|cd9b2d91-d60c-4f9c-b210-b5069992a08c|cec88b71-0c02-4acf-9893-08fdefa7043c",
-          ""
-        ],
-        [
           "silk_edge_clearance|97602450|68220000|c76cf720-017d-4407-bd38-085e78fc91aa|2de41472-4179-400a-8e40-98192c647b40",
-          ""
-        ],
-        [
-          "silk_over_copper|72582450|24999260|3a11a6fa-db03-4606-81c3-ef1d8cf93f05|b939d980-e828-43dd-854b-b9431cfeeb5f",
-          ""
-        ],
-        [
-          "silk_over_copper|72582450|24999260|5270afa1-49cb-4dd0-8219-c813f0c32f24|b939d980-e828-43dd-854b-b9431cfeeb5f",
           ""
         ],
         [
@@ -355,6 +323,38 @@
   },
   "erc": {
     "erc_exclusions": [
+      [
+        "footprint_filter|1016000|1320800|02caaa4d-584a-4d05-8e4d-5e68c8505552|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_filter|1016000|1574800|63240a12-6569-4b29-967d-5cf34b96eec7|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_filter|647700|1308100|6ffb009c-5ce4-4043-b00f-07098b434674|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_filter|825500|304800|91c64d3a-b5d7-49de-a3fd-f52f4f8aea70|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_filter|863600|1320800|889268d6-eeeb-4a56-bc7a-1538eeb2a832|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_filter|863600|1574800|ddb26da4-b580-4657-96e0-66db40d2b903|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_filter|939800|1320800|4b8434c4-f4c2-4c4b-8a3d-013edf0e5146|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
+      [
+        "footprint_filter|939800|1574800|ac5e5a69-9428-4481-9565-affebbb8f634|00000000-0000-0000-0000-000000000000|||",
+        ""
+      ],
       [
         "footprint_link_issues|1016000|1320800|02caaa4d-584a-4d05-8e4d-5e68c8505552|00000000-0000-0000-0000-000000000000|||",
         ""
@@ -902,7 +902,7 @@
         "uuid": "13b7de53-ecff-4b32-b513-b5b471d022a3"
       }
     ],
-    "used_designators": "BT1,R57,#PWR96-99,C58-59,U23,U25",
+    "used_designators": "D7-12,U23,U25,U27,U34-44,C44-45,C58-114,SW1,J2,J9,J13-19,J27-29,#FLG8-18,MK1,BT1-2,JP1-11,TP1-3,R32-33,R37,R40,R45,R57-113,RV1,RV3-4,L1,FB1,#PWR18,#PWR27,#PWR31-32,#PWR35-36,#PWR38,#PWR40,#PWR44,#PWR46,#PWR48-54,#PWR57-58,#PWR62,#PWR64,#PWR66,#PWR77,#PWR96-164,F1,Q1-6",
     "variants": [
       {
         "description": "BOM variant for Ambient project: unnecessary sensors removed",
@@ -938,6 +938,22 @@
     [
       "e21f4090-1137-445d-beac-e9326d55c77a",
       "Input_Output"
+    ],
+    [
+      "9252c758-f693-47d5-942e-3c12b01a17c4",
+      "Power_Monitor_Charger"
+    ],
+    [
+      "4e02be3b-10a7-426e-bb38-45ab49115d3d",
+      "MicrophoneADC"
+    ],
+    [
+      "714f725b-b3b8-437e-9dc1-6928dde75eb2",
+      "MicrophoneTrigger"
+    ],
+    [
+      "fceb7711-83a4-4a74-b2a3-5af1974d5ee5",
+      "BatteryProtection"
     ]
   ],
   "text_variables": {},

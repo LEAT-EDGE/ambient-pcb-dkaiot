@@ -69,7 +69,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -119,7 +119,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -4292,7 +4292,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "27ecdd0b-daa2-465c-825a-fa298813ffb1")
+		(uuid "22ca6481-6314-40d5-b5e0-a3b472bcbb85")
 		(property "Reference" "#PWR036"
 			(at 161.29 34.29 0)
 			(hide yes)
@@ -4304,14 +4304,15 @@
 				)
 			)
 		)
-		(property "Value" "V_PERIPH_3V"
-			(at 161.29 25.4 0)
+		(property "Value" "+3V0_PERIPH"
+			(at 163.83 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -4348,7 +4349,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bb49bc83-0680-4b44-827d-eb5193235347")
+			(uuid "4ce78c33-b5bc-47a8-807c-dcba6e6d743e")
 		)
 		(instances
 			(project "uca-dkaiot2-kicad"
@@ -4365,9 +4366,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(dnp yes)
 		(uuid "38299a8c-060f-493e-a083-a9dd61e4c0e7")
 		(property "Reference" "C47"
@@ -4436,12 +4437,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "C47")
 					(unit 1)
-					(variant
-						(name "Ambient")
-						(in_bom yes)
-						(on_board yes)
-						(in_pos_files yes)
-					)
 				)
 			)
 		)
@@ -4615,9 +4610,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(dnp yes)
 		(uuid "57b03f8e-a0a5-4534-8522-30ffa9d18fa0")
 		(property "Reference" "C48"
@@ -4686,12 +4681,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "C48")
 					(unit 1)
-					(variant
-						(name "Ambient")
-						(in_bom yes)
-						(on_board yes)
-						(in_pos_files yes)
-					)
 				)
 			)
 		)
@@ -4789,14 +4778,14 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "5dee6c03-1dcd-4e68-9c0d-7ae57a0cddf1")
 		(property "Reference" "C50"
-			(at 87.63 58.4262 0)
+			(at 87.63 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4807,7 +4796,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 87.63 60.9662 0)
+			(at 87.63 60.9599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4861,12 +4850,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "C50")
 					(unit 1)
-					(variant
-						(name "Ambient")
-						(in_bom yes)
-						(on_board yes)
-						(in_pos_files yes)
-					)
 				)
 			)
 		)
@@ -4882,8 +4865,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "65140aae-44cf-490a-bc04-1334778bec56")
-		(property "Reference" "#PWR027"
+		(uuid "5efaec90-7673-4692-b3ce-93cbf194e4cc")
+		(property "Reference" "#PWR0163"
 			(at 72.39 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4894,8 +4877,8 @@
 				)
 			)
 		)
-		(property "Value" "VDD_1V8"
-			(at 72.39 20.32 0)
+		(property "Value" "+1V8"
+			(at 72.39 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4938,12 +4921,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b64ac42a-6334-432f-a4b3-18f2e9274841")
+			(uuid "8accac71-5c46-46ed-a463-3a42348dbad0")
 		)
 		(instances
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
-					(reference "#PWR027")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -5086,14 +5069,14 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "82a96c1e-c65b-4339-9794-b7bd42fa8d6f")
 		(property "Reference" "C22"
-			(at 87.63 124.4662 0)
+			(at 87.63 124.4599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5104,7 +5087,7 @@
 			)
 		)
 		(property "Value" "220nF"
-			(at 87.63 127.0062 0)
+			(at 87.63 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5158,12 +5141,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "C22")
 					(unit 1)
-					(variant
-						(name "Ambient")
-						(in_bom yes)
-						(on_board yes)
-						(in_pos_files yes)
-					)
 				)
 			)
 		)
@@ -5248,7 +5225,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V0")
-		(at 146.05 97.79 0)
+		(at 66.04 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5257,9 +5234,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9be9ad3c-4e38-4356-9fcb-914ebe44bd59")
-		(property "Reference" "#PWR035"
-			(at 146.05 101.6 0)
+		(uuid "99dbc99f-db7b-4170-b6a7-94b5338cdaf3")
+		(property "Reference" "#PWR031"
+			(at 66.04 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5269,18 +5246,19 @@
 				)
 			)
 		)
-		(property "Value" "V_PERIPH_3V"
-			(at 146.05 92.71 0)
+		(property "Value" "+3V0_PERIPH"
+			(at 68.58 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 97.79 0)
+			(at 66.04 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5291,7 +5269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 97.79 0)
+			(at 66.04 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5302,7 +5280,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 146.05 97.79 0)
+			(at 66.04 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5313,12 +5291,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c5a8488a-ebfa-4b7f-bac7-803bf8d40b0a")
+			(uuid "bdf05826-0691-4c73-ba0d-56fea91e8b9a")
 		)
 		(instances
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
-					(reference "#PWR035")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -5485,6 +5463,85 @@
 						(on_board yes)
 						(in_pos_files yes)
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V0")
+		(at 146.05 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9cbae2ea-2bc5-49dc-8666-0422b6fed480")
+		(property "Reference" "#PWR035"
+			(at 146.05 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V0_PERIPH"
+			(at 148.59 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+			(at 146.05 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "546ac8f9-8563-4755-90ca-b4c56a3d9bf3")
+		)
+		(instances
+			(project "uca-dkaiot2-kicad"
+				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
+					(reference "#PWR035")
+					(unit 1)
 				)
 			)
 		)
@@ -5790,9 +5847,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(dnp yes)
 		(uuid "b08a9d58-8635-4324-8bc2-178319065513")
 		(property "Reference" "C49"
@@ -5861,12 +5918,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "C49")
 					(unit 1)
-					(variant
-						(name "Ambient")
-						(in_bom yes)
-						(on_board yes)
-						(in_pos_files yes)
-					)
 				)
 			)
 		)
@@ -5877,14 +5928,14 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b3f4b879-7e47-4d0e-890f-9e975130e105")
 		(property "Reference" "C38"
-			(at 97.79 45.7262 0)
+			(at 97.79 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5895,7 +5946,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 97.79 48.2662 0)
+			(at 97.79 48.2599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5949,12 +6000,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "C38")
 					(unit 1)
-					(variant
-						(name "Ambient")
-						(in_bom yes)
-						(on_board yes)
-						(in_pos_files yes)
-					)
 				)
 			)
 		)
@@ -6167,84 +6212,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
-		(at 66.04 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cfa44c44-945e-4214-a71b-bc5c3a3038fe")
-		(property "Reference" "#PWR031"
-			(at 66.04 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "V_PERIPH_3V"
-			(at 66.04 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 66.04 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4cfd1edc-07fb-48d5-bb79-14d0f760bc2b")
-		)
-		(instances
-			(project "uca-dkaiot2-kicad"
-				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
-					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 184.15 114.3 0)
 		(unit 1)
@@ -6257,7 +6224,7 @@
 		(fields_autoplaced yes)
 		(uuid "fdbc6b6d-f4ed-41f5-b5d0-84f312c5b9c9")
 		(property "Reference" "C41"
-			(at 186.69 113.0362 0)
+			(at 186.69 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6268,7 +6235,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 186.69 115.5762 0)
+			(at 186.69 115.5699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6423,14 +6390,14 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "fff7e865-fc8c-4886-92ee-ccbed20a0c67")
 		(property "Reference" "C21"
-			(at 31.75 119.3862 0)
+			(at 31.75 119.3799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6441,7 +6408,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 31.75 121.9262 0)
+			(at 31.75 121.9199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6495,12 +6462,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa"
 					(reference "C21")
 					(unit 1)
-					(variant
-						(name "Ambient")
-						(in_bom yes)
-						(on_board yes)
-						(in_pos_files yes)
-					)
 				)
 			)
 		)

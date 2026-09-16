@@ -192,7 +192,7 @@
 				)
 			)
 			(property "Description" "Unpolarized capacitor, small symbol"
-				(at 0 0 0)
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -242,7 +242,7 @@
 						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -3064,6 +3064,197 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Reed"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_Reed"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "reed switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "reed magnetic switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_Reed_0_0"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 1.27 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.159 -1.397) (xy 2.286 -1.397)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.159 -1.397)
+					(mid -3.55 0)
+					(end -2.159 1.397)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.159 1.397)
+					(mid 3.55 0)
+					(end 2.159 -1.397)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.159 1.397) (xy -2.159 1.397)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy -1.27 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_Reed_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V0"
 			(power global)
 			(pin_numbers
@@ -3497,6 +3688,26 @@
 			(justify left top)
 		)
 		(uuid "7300d654-cce0-4aa4-9431-b964dc53807c")
+	)
+	(text_box "DKAIoT reset magnetic switch"
+		(exclude_from_sim no)
+		(at 19.05 13.97 0)
+		(size 31.75 22.86)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "86388bff-28b6-4ccb-99c6-eec5d141e720")
 	)
 	(text_box "Bootloader switch"
 		(exclude_from_sim no)
@@ -4063,6 +4274,16 @@
 			(type default)
 		)
 		(uuid "1b1c2ae5-2194-442d-b809-a30d62c2e632")
+	)
+	(wire
+		(pts
+			(xy 33.02 38.1) (xy 33.02 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c4e9b7a-b4c7-4bbf-a01b-675ec77d5a09")
 	)
 	(wire
 		(pts
@@ -5666,6 +5887,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 21.59) (xy 33.02 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed93ef9b-37ed-4625-afa5-9f7d93474d01")
+	)
+	(wire
+		(pts
 			(xy 113.03 83.82) (xy 115.57 83.82)
 		)
 		(stroke
@@ -5773,6 +6004,30 @@
 			(type default)
 		)
 		(uuid "ffa1c8f0-edc5-437d-ae8f-a6122eeb849c")
+	)
+	(global_label "MCU_RESET"
+		(shape input)
+		(at 33.02 21.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0093e2c7-8e12-4a3b-acf8-fddb32305227")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 19.2702 21.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(global_label "INT_ACC_1"
 		(shape input)
@@ -6927,8 +7182,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
-		(at 241.3 59.69 0)
+		(lib_id "power:GND")
+		(at 33.02 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6937,9 +7192,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "04e02074-658a-4055-b218-950ad391823b")
-		(property "Reference" "#PWR044"
-			(at 241.3 63.5 0)
+		(uuid "015e61eb-bb6b-4c6c-aebc-b4c2adfacfe1")
+		(property "Reference" "#PWR0126"
+			(at 33.02 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6949,8 +7204,8 @@
 				)
 			)
 		)
-		(property "Value" "V_PERIPH_3V"
-			(at 241.3 54.61 0)
+		(property "Value" "GND"
+			(at 33.02 43.18 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6960,7 +7215,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 241.3 59.69 0)
+			(at 33.02 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6971,7 +7226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 241.3 59.69 0)
+			(at 33.02 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6981,8 +7236,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 241.3 59.69 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 33.02 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6993,12 +7248,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "681bfe7e-2250-48f9-afdf-9ed15751c861")
+			(uuid "225da7a6-12b1-498e-9347-a2b3335c3623")
 		)
 		(instances
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/1d5af506-69c6-4b4d-9333-2658f621317a"
-					(reference "#PWR044")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -7340,6 +7595,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V0")
+		(at 213.36 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c9ffa0c-995e-4f77-a882-d7ec55804302")
+		(property "Reference" "#PWR052"
+			(at 213.36 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V0_PERIPH"
+			(at 215.9 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+			(at 213.36 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef218294-1e98-42f0-a5f3-529718b602f4")
+		)
+		(instances
+			(project "uca-dkaiot2-kicad"
+				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/1d5af506-69c6-4b4d-9333-2658f621317a"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 92.71 124.46 0)
 		(unit 1)
@@ -7673,7 +8007,7 @@
 		(fields_autoplaced yes)
 		(uuid "381b6778-975c-4b63-9184-5ea57bcc6522")
 		(property "Reference" "C8"
-			(at 160.02 25.4062 0)
+			(at 160.02 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7684,7 +8018,7 @@
 			)
 		)
 		(property "Value" "10nF"
-			(at 160.02 27.9462 0)
+			(at 160.02 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7833,7 +8167,7 @@
 		(fields_autoplaced yes)
 		(uuid "4a0b9d7e-acd4-41cc-ad0a-1b21a16b4d7c")
 		(property "Reference" "C4"
-			(at 97.79 33.0262 0)
+			(at 97.79 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7844,7 +8178,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 97.79 35.5662 0)
+			(at 97.79 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7984,6 +8318,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V0")
+		(at 241.3 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "518979ae-69fe-4159-b0a1-499a30487ade")
+		(property "Reference" "#PWR044"
+			(at 241.3 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V0_PERIPH"
+			(at 243.84 58.4199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+			(at 241.3 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6b3fb0b9-e384-4572-83d6-f38fddbf0ad4")
+		)
+		(instances
+			(project "uca-dkaiot2-kicad"
+				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/1d5af506-69c6-4b4d-9333-2658f621317a"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 64.77 68.58 0)
 		(unit 1)
@@ -8077,7 +8490,7 @@
 		(fields_autoplaced yes)
 		(uuid "64b1b3da-274c-4b02-a6b7-6d6c51994cc2")
 		(property "Reference" "C12"
-			(at 172.72 43.1862 0)
+			(at 172.72 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8088,7 +8501,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 172.72 45.7262 0)
+			(at 172.72 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8315,7 +8728,7 @@
 		(fields_autoplaced yes)
 		(uuid "881a34e3-9ac7-4c92-b5f1-36bdf65ec858")
 		(property "Reference" "C3"
-			(at 86.36 33.0262 0)
+			(at 86.36 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8326,7 +8739,7 @@
 			)
 		)
 		(property "Value" "4.7µF"
-			(at 86.36 35.5662 0)
+			(at 86.36 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8475,7 +8888,7 @@
 		(fields_autoplaced yes)
 		(uuid "95171dd8-9292-4ba3-ac3c-8d1292d4eb72")
 		(property "Reference" "C11"
-			(at 161.29 43.1862 0)
+			(at 161.29 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8486,7 +8899,7 @@
 			)
 		)
 		(property "Value" "4.7µF"
-			(at 161.29 45.7262 0)
+			(at 161.29 45.7199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8829,7 +9242,7 @@
 		(fields_autoplaced yes)
 		(uuid "ace00f59-3259-4d80-b209-811679d75fa7")
 		(property "Reference" "C7"
-			(at 148.59 25.4062 0)
+			(at 148.59 25.3999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8840,7 +9253,7 @@
 			)
 		)
 		(property "Value" "4.7µF"
-			(at 148.59 27.9462 0)
+			(at 148.59 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9571,7 +9984,7 @@
 		(fields_autoplaced yes)
 		(uuid "c844822e-3446-4b93-a6f5-dc1e3a9b5e5e")
 		(property "Reference" "C6"
-			(at 120.65 33.0262 0)
+			(at 120.65 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9582,7 +9995,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 120.65 35.5662 0)
+			(at 120.65 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9653,7 +10066,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9afdd0c-fd45-4ca7-9788-216c45ba2fde")
 		(property "Reference" "C5"
-			(at 109.22 33.0262 0)
+			(at 109.22 33.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9664,7 +10077,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 109.22 35.5662 0)
+			(at 109.22 35.5599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9879,84 +10292,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
-		(at 213.36 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d7cb7531-37cf-4b57-9dd3-7f20324264bf")
-		(property "Reference" "#PWR066"
-			(at 213.36 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "V_PERIPH_3V"
-			(at 213.36 111.76 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 213.36 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d5728cdb-1a0a-46f8-9a8d-df35b32f8067")
-		)
-		(instances
-			(project "uca-dkaiot2-kicad"
-				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/1d5af506-69c6-4b4d-9333-2658f621317a"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 182.88 118.11 90)
 		(unit 1)
@@ -10038,6 +10373,88 @@
 						(on_board yes)
 						(in_pos_files yes)
 					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Reed")
+		(at 33.02 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddc2d0fe-9d62-43a6-bd91-32fad17e4b94")
+		(property "Reference" "SW1"
+			(at 35.56 29.2099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SW_Reed"
+			(at 35.56 31.7499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 33.02 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "reed switch"
+			(at 33.02 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6d6c1815-b58e-4150-9fcc-ca06f4745981")
+		)
+		(pin "1"
+			(uuid "8f6bec1b-a108-43f6-82d1-d46e26a40d55")
+		)
+		(instances
+			(project "uca-dkaiot2-kicad"
+				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/1d5af506-69c6-4b4d-9333-2658f621317a"
+					(reference "SW1")
+					(unit 1)
 				)
 			)
 		)
@@ -10317,9 +10734,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
 		(dnp yes)
 		(uuid "f308e421-6b85-465b-84bf-31ddfcd1e838")
 		(property "Reference" "C25"
@@ -10388,12 +10805,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/1d5af506-69c6-4b4d-9333-2658f621317a"
 					(reference "C25")
 					(unit 1)
-					(variant
-						(name "Ambient")
-						(in_bom yes)
-						(on_board yes)
-						(in_pos_files yes)
-					)
 				)
 			)
 		)
