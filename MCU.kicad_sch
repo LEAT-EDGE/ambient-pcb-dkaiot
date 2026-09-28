@@ -2224,7 +2224,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_Crystal_AKL:SMD2012-2"
+		(symbol "PCM_Crystal_AKL:SMD3215-2"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2247,7 +2247,7 @@
 					)
 				)
 			)
-			(property "Value" "SMD2012-2"
+			(property "Value" "SMD3215-2"
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2257,7 +2257,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_Crystal_AKL:Crystal_SMD_2012-2Pin_2.0x1.2mm"
+			(property "Footprint" "PCM_Crystal_AKL:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2279,7 +2279,7 @@
 					)
 				)
 			)
-			(property "Description" "SMD Quartz crystal, 2.0mm x 1.2mm, Alternate KiCad Library"
+			(property "Description" "SMD Quartz crystal, 3.2mm x 1.5mm, Alternate KiCad Library"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2290,7 +2290,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "quartz resonator crystal shielded smd 2012"
+			(property "ki_keywords" "quartz resonator crystal shielded smd 3215"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2312,7 +2312,7 @@
 					)
 				)
 			)
-			(symbol "SMD2012-2_0_1"
+			(symbol "SMD3215-2_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -1.905 0)
@@ -2373,7 +2373,7 @@
 					)
 				)
 			)
-			(symbol "SMD2012-2_1_1"
+			(symbol "SMD3215-2_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -3671,7 +3671,7 @@
 	)
 	(text_box "32.768 kHz crystal for LSE clock"
 		(exclude_from_sim no)
-		(at 64.77 107.95 0)
+		(at 57.15 107.95 0)
 		(size 34.29 25.4)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3770,7 +3770,7 @@
 		(uuid "ec4b300b-7311-4124-a49a-4afa8d6c85c6")
 	)
 	(junction
-		(at 80.01 119.38)
+		(at 72.39 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "015768e6-c286-479d-bfec-81117b50ee8d")
@@ -3962,7 +3962,7 @@
 		(uuid "a3765e3a-6277-44cf-b6b6-b3231ac3b821")
 	)
 	(junction
-		(at 92.71 119.38)
+		(at 85.09 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b51cc64d-8a8e-458c-b7d7-b715bde6c152")
@@ -4028,7 +4028,7 @@
 		(uuid "ced64a1a-4213-4070-9819-c3d423178c9b")
 	)
 	(junction
-		(at 86.36 144.78)
+		(at 78.74 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1ee7110-b144-4d32-89ea-e05bd6f8ce28")
@@ -4040,7 +4040,7 @@
 		(uuid "fbc05f69-ea5a-429a-8f43-05f3c1653a9a")
 	)
 	(junction
-		(at 86.36 129.54)
+		(at 78.74 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fc2aa191-d093-442b-8a9d-1d0c67088c3f")
@@ -4307,7 +4307,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 144.78) (xy 86.36 144.78)
+			(xy 36.83 144.78) (xy 113.03 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4677,7 +4677,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 129.54) (xy 86.36 144.78)
+			(xy 78.74 129.54) (xy 78.74 144.78)
 		)
 		(stroke
 			(width 0)
@@ -4694,16 +4694,6 @@
 			(type default)
 		)
 		(uuid "565a6c5a-6230-416c-98f8-796f5cad0773")
-	)
-	(wire
-		(pts
-			(xy 86.36 144.78) (xy 113.03 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58b64a38-08b2-49ca-a043-fa8385a5c10b")
 	)
 	(wire
 		(pts
@@ -4787,7 +4777,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 111.76) (xy 115.57 111.76)
+			(xy 72.39 111.76) (xy 115.57 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4977,7 +4967,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 129.54) (xy 86.36 129.54)
+			(xy 72.39 129.54) (xy 78.74 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5187,7 +5177,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 111.76) (xy 80.01 119.38)
+			(xy 72.39 111.76) (xy 72.39 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5227,7 +5217,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 119.38) (xy 80.01 121.92)
+			(xy 72.39 119.38) (xy 72.39 121.92)
 		)
 		(stroke
 			(width 0)
@@ -5437,7 +5427,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 114.3) (xy 92.71 119.38)
+			(xy 85.09 114.3) (xy 85.09 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5487,7 +5477,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 119.38) (xy 92.71 119.38)
+			(xy 82.55 119.38) (xy 85.09 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5527,7 +5517,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 121.92) (xy 92.71 119.38)
+			(xy 85.09 121.92) (xy 85.09 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5557,7 +5547,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 127) (xy 80.01 129.54)
+			(xy 72.39 127) (xy 72.39 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5607,7 +5597,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 119.38) (xy 82.55 119.38)
+			(xy 72.39 119.38) (xy 74.93 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5777,7 +5767,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 114.3) (xy 115.57 114.3)
+			(xy 85.09 114.3) (xy 115.57 114.3)
 		)
 		(stroke
 			(width 0)
@@ -5797,7 +5787,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 129.54) (xy 92.71 127)
+			(xy 85.09 129.54) (xy 85.09 127)
 		)
 		(stroke
 			(width 0)
@@ -5867,7 +5857,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 129.54) (xy 92.71 129.54)
+			(xy 78.74 129.54) (xy 85.09 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6042,30 +6032,6 @@
 		(uuid "05a7bba9-bdde-48d2-beb8-45fead8e5c3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 166.3314 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "V_PERIPH_ON_OFF"
-		(shape output)
-		(at 153.67 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "092e8208-202e-41e1-936e-b27251679ec0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.7096 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6314,6 +6280,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "V_PERIPH_ON_OFF"
+		(shape output)
+		(at 113.03 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "26c4049e-ffa1-4c3b-99e2-a0817df7694b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 92.9904 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -6642,6 +6632,30 @@
 		(uuid "84fbec5e-6efd-4a27-9874-d92124411db3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.6327 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SD_ON_OFF"
+		(shape output)
+		(at 153.67 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8749c384-6391-43e4-aa90-7b0594804fe9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.2386 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7157,30 +7171,6 @@
 			)
 		)
 	)
-	(global_label "SD_ON_OFF"
-		(shape output)
-		(at 113.03 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ffb754dd-5578-4b95-b7aa-1ce4583c10da")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.4614 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(symbol
 		(lib_id "power:GND")
 		(at 33.02 38.1 0)
@@ -7261,7 +7251,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 80.01 124.46 0)
+		(at 72.39 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7271,7 +7261,7 @@
 		(dnp no)
 		(uuid "04fd77e8-2362-4ddd-8638-145e180a9a35")
 		(property "Reference" "C18"
-			(at 77.216 123.444 0)
+			(at 69.596 123.444 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7281,8 +7271,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5.6pF"
-			(at 77.216 125.73 0)
+		(property "Value" "12pF"
+			(at 69.596 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7293,7 +7283,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 80.01 124.46 0)
+			(at 72.39 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7304,7 +7294,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 124.46 0)
+			(at 72.39 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7315,7 +7305,18 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 80.01 124.46 0)
+			(at 72.39 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1547"
+			(at 72.39 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7397,6 +7398,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 40.64 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 40.64 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7493,6 +7505,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 214.63 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 214.63 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "460af70a-f2b0-4556-8c71-4c91d9b3e91c")
 		)
@@ -7529,7 +7563,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "33"
 			(at 186.182 101.346 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7563,6 +7597,28 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 182.88 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 182.88 102.87 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 182.88 102.87 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7675,7 +7731,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 92.71 124.46 0)
+		(at 85.09 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7685,7 +7741,7 @@
 		(dnp no)
 		(uuid "1fe0a84b-99e2-43ff-8646-a403d8873c68")
 		(property "Reference" "C19"
-			(at 85.852 123.698 0)
+			(at 78.232 123.698 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7695,8 +7751,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5.6pF"
-			(at 85.852 126.238 0)
+		(property "Value" "12pF"
+			(at 78.232 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7707,7 +7763,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 92.71 124.46 0)
+			(at 85.09 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7718,7 +7774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 92.71 124.46 0)
+			(at 85.09 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7729,7 +7785,18 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 92.71 124.46 0)
+			(at 85.09 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1547"
+			(at 85.09 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7898,6 +7965,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 34.29 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 34.29 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "8d3c7759-6698-460c-b552-7d52c0f8b14f")
 		)
@@ -7969,6 +8058,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 82.55 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1547"
 			(at 82.55 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8051,6 +8151,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 157.48 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15195"
+			(at 157.48 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 157.48 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -8221,6 +8343,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 95.25 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 95.25 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b6c1b823-7084-4a35-a98e-21e8cea02ec1")
 		)
@@ -8293,6 +8437,17 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 40.64 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C223812"
+			(at 40.64 63.5 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8462,6 +8617,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C1547"
+			(at 64.77 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e006af19-5fe4-4ab7-822d-bca777d5bc89")
 		)
@@ -8534,6 +8700,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 170.18 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 170.18 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 170.18 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -8782,6 +8970,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C23733"
+			(at 83.82 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 83.82 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f3ef50a5-b10b-42e7-afaa-f3233fde673f")
 		)
@@ -8942,6 +9152,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C23733"
+			(at 158.75 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 158.75 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "73494e08-7527-43a3-8bad-b93c72dd438b")
 		)
@@ -9013,6 +9245,28 @@
 			)
 		)
 		(property "Description" "Cryptographic Co-Processor with Secure Hardware-based 16 Key Storage, ECDSA and ECDH support, I2C, SOIC-8"
+			(at 241.3 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 241.3 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C616024"
 			(at 241.3 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9128,6 +9382,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 36.83 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 36.83 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "fcc873c0-452e-4be5-91bf-2c96afe209f7")
 		)
@@ -9198,6 +9474,17 @@
 			)
 		)
 		(property "Description" "SMD Quartz crystal, 4 terminals, 3.2mm x 2.5mm, Alternate KiCad Library"
+			(at 73.66 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C13738"
 			(at 73.66 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -9296,6 +9583,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C23733"
+			(at 146.05 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 146.05 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f543c570-3bbb-405f-a029-fcd00171c6f5")
 		)
@@ -9306,98 +9615,6 @@
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/1d5af506-69c6-4b4d-9333-2658f621317a"
 					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_Crystal_AKL:SMD2012-2")
-		(at 86.36 119.38 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aeba26d3-955d-4175-a107-c03b5f609538")
-		(property "Reference" "X2"
-			(at 78.486 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMD2012-2"
-			(at 78.486 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_Crystal_AKL:Crystal_SMD_2012-2Pin_2.0x1.2mm"
-			(at 86.36 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 86.36 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD Quartz crystal, 2.0mm x 1.2mm, Alternate KiCad Library"
-			(at 86.36 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C96341"
-			(at 86.36 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f03c9371-fc98-4d9f-ae5d-15f53672ff97")
-		)
-		(pin "2"
-			(uuid "529e3bcd-caae-4dea-9996-dcf049fc7462")
-		)
-		(instances
-			(project "uca-dkaiot2-kicad"
-				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/1d5af506-69c6-4b4d-9333-2658f621317a"
-					(reference "X2")
 					(unit 1)
 				)
 			)
@@ -9460,6 +9677,17 @@
 		)
 		(property "Description" "Push button switch, generic, two pins"
 			(at 36.83 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C223812"
+			(at 36.83 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9540,6 +9768,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C23733"
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 113.03 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -9664,7 +9914,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "33"
 			(at 186.436 106.68 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9698,6 +9948,28 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 182.88 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 182.88 107.95 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 182.88 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9750,7 +10022,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "33"
 			(at 186.436 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9784,6 +10056,28 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 182.88 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 182.88 113.03 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 182.88 113.03 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10038,6 +10332,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 118.11 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 118.11 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "64d300e1-2042-410e-b504-1a264473dfef")
 		)
@@ -10048,6 +10364,96 @@
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/1d5af506-69c6-4b4d-9333-2658f621317a"
 					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Crystal_AKL:SMD3215-2")
+		(at 78.74 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c91ea993-8ced-4527-ac0f-280e48356f3d")
+		(property "Reference" "X2"
+			(at 70.358 112.776 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMD3215-2 32.768kHz"
+			(at 71.628 115.316 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Crystal_AKL:Crystal_SMD_3215-2Pin_3.2x1.5mm"
+			(at 78.74 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD Quartz crystal, 3.2mm x 1.5mm, Alternate KiCad Library"
+			(at 78.74 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C32346"
+			(at 78.74 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "87aeae21-3148-4398-a0d4-5415021132d8")
+		)
+		(pin "1"
+			(uuid "3e5f6f0f-4b08-4f30-b7f4-ecef31d1b859")
+		)
+		(instances
+			(project "uca-dkaiot2-kicad"
+				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/1d5af506-69c6-4b4d-9333-2658f621317a"
+					(reference "X2")
 					(unit 1)
 				)
 			)
@@ -10110,6 +10516,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 106.68 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 106.68 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 106.68 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10312,7 +10740,7 @@
 				)
 			)
 		)
-		(property "Value" "51"
+		(property "Value" "33"
 			(at 186.436 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10346,6 +10774,28 @@
 		)
 		(property "Description" "Resistor, small symbol"
 			(at 182.88 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 182.88 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25105"
+			(at 182.88 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10444,6 +10894,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 33.02 30.48 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6d6c1815-b58e-4150-9fcc-ca06f4745981")
 		)
@@ -10517,6 +10978,28 @@
 			)
 		)
 		(property "Description" "STMicroelectronics Arm Cortex-M33 MCU, 2048KB flash, 2514KB RAM, 51 GPIO, LQFP64"
+			(at 133.35 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Old" "C28247611"
+			(at 133.35 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C28563722"
 			(at 133.35 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -10734,9 +11217,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "f308e421-6b85-465b-84bf-31ddfcd1e838")
 		(property "Reference" "C25"
@@ -10784,6 +11267,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 231.14 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 231.14 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C1525"
 			(at 231.14 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10953,6 +11458,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 212.09 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25900"
+			(at 212.09 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "50f54bfc-3e9c-42bf-9bd9-624bf829ee61")
 		)
@@ -11025,6 +11552,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 40.64 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 40.64 101.6 0)
 			(hide yes)
 			(show_name no)

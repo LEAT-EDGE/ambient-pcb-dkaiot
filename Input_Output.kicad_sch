@@ -2460,7 +2460,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "PCM_LED_AKL:LED_0603_Blue"
+		(symbol "PCM_LED_AKL:LED_0805_Green"
 			(body_styles demorgan)
 			(pin_numbers
 				(hide yes)
@@ -2484,7 +2484,7 @@
 					)
 				)
 			)
-			(property "Value" "LED_0603_Blue"
+			(property "Value" "LED_0805_Green"
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2494,7 +2494,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
+			(property "Footprint" "PCM_LED_SMD_AKL:LED_0805_2012Metric"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2516,7 +2516,7 @@
 					)
 				)
 			)
-			(property "Description" "Blue SMD LED, 0603, Alternate KiCad Library"
+			(property "Description" "Green SMD LED, 0805, Alternate KiCad Library"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2527,7 +2527,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "blue LED diode generic smd 0603"
+			(property "ki_keywords" "green LED diode generic smd 0805"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2549,7 +2549,7 @@
 					)
 				)
 			)
-			(symbol "LED_0603_Blue_0_1"
+			(symbol "LED_0805_Green_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27) (xy 1.27 0) (xy -1.27 1.27)
@@ -2560,7 +2560,7 @@
 					)
 					(fill
 						(type color)
-						(color 70 70 200 1)
+						(color 30 200 30 1)
 					)
 				)
 				(polyline
@@ -2570,7 +2570,7 @@
 					(stroke
 						(width 0.1524)
 						(type default)
-						(color 70 70 200 1)
+						(color 30 200 30 1)
 					)
 					(fill
 						(type none)
@@ -2583,7 +2583,7 @@
 					(stroke
 						(width 0)
 						(type solid)
-						(color 70 70 200 1)
+						(color 30 200 30 1)
 					)
 					(fill
 						(type outline)
@@ -2596,7 +2596,7 @@
 					(stroke
 						(width 0.1524)
 						(type default)
-						(color 70 70 200 1)
+						(color 30 200 30 1)
 					)
 					(fill
 						(type none)
@@ -2609,7 +2609,7 @@
 					(stroke
 						(width 0.1524)
 						(type default)
-						(color 70 70 200 1)
+						(color 30 200 30 1)
 					)
 					(fill
 						(type outline)
@@ -2628,7 +2628,7 @@
 					)
 				)
 			)
-			(symbol "LED_0603_Blue_0_2"
+			(symbol "LED_0805_Green_0_2"
 				(polyline
 					(pts
 						(xy -2.54 -2.54) (xy -0.889 -0.889)
@@ -2648,7 +2648,7 @@
 					(stroke
 						(width 0)
 						(type default)
-						(color 70 70 200 1)
+						(color 30 200 30 1)
 					)
 					(fill
 						(type none)
@@ -2664,7 +2664,7 @@
 					)
 					(fill
 						(type color)
-						(color 70 70 200 1)
+						(color 30 200 30 1)
 					)
 				)
 				(polyline
@@ -2674,7 +2674,7 @@
 					(stroke
 						(width 0)
 						(type default)
-						(color 70 70 200 1)
+						(color 30 200 30 1)
 					)
 					(fill
 						(type none)
@@ -2705,7 +2705,7 @@
 					)
 				)
 			)
-			(symbol "LED_0603_Blue_1_1"
+			(symbol "LED_0805_Green_1_1"
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
@@ -2743,7 +2743,7 @@
 					)
 				)
 			)
-			(symbol "LED_0603_Blue_1_2"
+			(symbol "LED_0805_Green_1_2"
 				(polyline
 					(pts
 						(xy -2.159 2.413) (xy -2.286 1.778) (xy -1.6764 1.9812) (xy -2.159 2.413)
@@ -2751,7 +2751,7 @@
 					(stroke
 						(width 0)
 						(type default)
-						(color 70 70 200 1)
+						(color 30 200 30 1)
 					)
 					(fill
 						(type outline)
@@ -2764,7 +2764,7 @@
 					(stroke
 						(width 0)
 						(type default)
-						(color 70 70 200 1)
+						(color 30 200 30 1)
 					)
 					(fill
 						(type outline)
@@ -5391,6 +5391,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 198.12 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 198.12 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b5d63ace-ea2f-43ff-9b3f-981cfb4c9e13")
 		)
@@ -5463,6 +5485,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 214.63 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 214.63 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -5559,6 +5592,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 222.25 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "2d57ac46-0507-4954-9bdf-67569402f693")
 		)
@@ -5634,6 +5678,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 52.07 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 52.07 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25900"
 			(at 52.07 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -5744,10 +5810,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "5cad1442-4f23-4225-be86-87c321d18231")
 		(property "Reference" "J1"
 			(at 219.71 52.0701 0)
@@ -5771,7 +5837,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 217.17 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -5804,6 +5870,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 217.17 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C37815"
+			(at 217.17 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "fe087c45-b5dc-4455-ab55-30e76690c8de")
 		)
@@ -5823,7 +5911,8 @@
 					(unit 1)
 					(variant
 						(name "Ambient")
-						(dnp yes)
+						(in_bom yes)
+						(in_pos_files yes)
 					)
 				)
 			)
@@ -5986,88 +6075,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_LED_AKL:LED_0603_Blue")
-		(at 91.44 166.37 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "745d217d-14e7-4521-b325-958637c314f0")
-		(property "Reference" "D1"
-			(at 96.52 165.0999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LED_0603_Blue"
-			(at 96.52 167.6399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PCM_LED_SMD_AKL:LED_0603_1608Metric"
-			(at 91.44 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Blue SMD LED, 0603, Alternate KiCad Library"
-			(at 91.44 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "591675ee-962f-4da5-b4d3-5a1c744fc4dc")
-		)
-		(pin "1"
-			(uuid "c1bd48f2-e950-4aa5-9fdf-b2ff25d16867")
-		)
-		(instances
-			(project "uca-dkaiot2-kicad"
-				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 217.17 82.55 0)
 		(unit 1)
@@ -6101,7 +6108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 217.17 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6124,6 +6131,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 217.17 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C20079"
 			(at 217.17 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -6167,7 +6196,7 @@
 		(dnp no)
 		(uuid "76b880e3-f079-4965-982b-b494ee45cbb8")
 		(property "Reference" "U32"
-			(at 86.36 41.402 0)
+			(at 86.36 39.624 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6210,6 +6239,28 @@
 			)
 		)
 		(property "Description" "Micro SD Card Socket with one card detection pin"
+			(at 86.36 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 86.36 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22383473"
 			(at 86.36 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6282,7 +6333,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "360"
+		(property "Value" "1k"
 			(at 93.98 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6316,6 +6367,28 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 91.44 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 91.44 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C11702"
 			(at 91.44 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -6486,6 +6559,28 @@
 				)
 			)
 		)
+		(property "LCSC" "C1525"
+			(at 52.07 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 52.07 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e98e88b7-e9ae-4678-bddc-104afafbe776")
 		)
@@ -6646,6 +6741,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 139.7 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "0fd33803-f3da-4bd4-92c2-35330e0b58b9")
 		)
@@ -6733,6 +6839,28 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 68.58 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 68.58 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C36191"
 			(at 68.58 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -6855,6 +6983,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 222.25 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "847e39be-1a31-4e32-b7e6-7164b35af41b")
 		)
@@ -6953,84 +7092,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V0")
-		(at 44.45 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b74a52d2-70a8-4fbc-aee6-67aef5895384")
-		(property "Reference" "#PWR054"
-			(at 44.45 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V0_PERIPH"
-			(at 38.608 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V0\""
-			(at 44.45 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c61c1b0-488d-4ea0-9205-c4947a4fb6a6")
-		)
-		(instances
-			(project "uca-dkaiot2-kicad"
-				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
-					(reference "#PWR054")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 44.45 81.28 0)
 		(unit 1)
@@ -7103,6 +7164,99 @@
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_LED_AKL:LED_0805_Green")
+		(at 91.44 166.37 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2626952-6799-41a4-8480-dec50f0cc79e")
+		(property "Reference" "D1"
+			(at 96.52 165.0999 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LED_0805_Green"
+			(at 96.52 167.6399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PCM_LED_SMD_AKL:LED_0805_2012Metric"
+			(at 91.44 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Green SMD LED, 0805, Alternate KiCad Library"
+			(at 91.44 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2297"
+			(at 91.44 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5f5471a-1cc5-4c79-8e7e-7acd4ce9ac6c")
+		)
+		(pin "2"
+			(uuid "63d122f1-1449-49dc-b037-22db845eb924")
+		)
+		(instances
+			(project "uca-dkaiot2-kicad"
+				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7196,7 +7350,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "daecc452-4713-455a-94d8-d3f05f0d51b0")
 		(property "Reference" "J7"
 			(at 144.018 55.88 0)
@@ -7220,7 +7374,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
 			(at 140.97 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7253,6 +7407,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 140.97 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2318"
+			(at 140.97 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "11588df9-785b-49f0-89f8-f430ab6d763b")
 		)
@@ -7273,10 +7449,6 @@
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "J7")
 					(unit 1)
-					(variant
-						(name "Ambient")
-						(dnp yes)
-					)
 				)
 			)
 		)
@@ -7494,6 +7666,17 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 218.44 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 218.44 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -7790,7 +7973,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_Micro-B_Molex-105017-0001"
+		(property "Footprint" "Connector_USB:USB_Micro-B_Amphenol_10118194-0001LF_Horizontal"
 			(at 209.55 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -7823,6 +8006,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C132563"
+			(at 205.74 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "SH"
 			(uuid "f69bc71e-aba3-4156-af8c-765ef5a7a0db")
 		)
@@ -7845,6 +8039,84 @@
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
 					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V0")
+		(at 44.45 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9b4e214-d632-4724-a021-0a00f53e9bb5")
+		(property "Reference" "#PWR0123"
+			(at 44.45 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V0_SD"
+			(at 44.45 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 44.45 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+			(at 44.45 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5f631ba0-88c8-411b-9279-905a2b28c333")
+		)
+		(instances
+			(project "uca-dkaiot2-kicad"
+				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -7905,6 +8177,17 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
+			(at 59.69 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C223812"
 			(at 59.69 167.64 0)
 			(hide yes)
 			(show_name no)

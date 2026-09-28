@@ -3669,7 +3669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/25V"
 			(at 77.978 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3725,6 +3725,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 86.36 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 86.36 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -3847,6 +3858,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 115.57 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bd23a056-0c33-45cc-848f-15fdd1768f06")
 		)
@@ -3958,6 +3980,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 132.08 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a048fed1-0d8c-4063-a49e-4d8b706f3d4d")
 		)
@@ -3998,7 +4031,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/25V"
 			(at 65.278 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4054,6 +4087,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 73.66 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 73.66 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4171,6 +4215,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 86.36 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "399c39bc-a069-4020-9a79-753635bf1c3d")
 		)
@@ -4265,6 +4320,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 124.46 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 124.46 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -4372,6 +4438,17 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
+			(at 95.25 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 95.25 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -4497,6 +4574,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 86.36 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "bf32e074-27c0-4464-ad38-77a183c34069")
 		)
@@ -4600,6 +4688,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 92.71 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c5c0aa01-9ab4-402b-8837-9a803b38deab")
 		)
@@ -4641,7 +4740,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100nF/25V"
 			(at 65.278 175.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4697,6 +4796,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 73.66 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 73.66 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -4892,6 +5002,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 82.55 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "5bba7e8b-c1db-44a6-ac30-0c0f2a7816a2")
 		)
@@ -4985,6 +5106,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 110.49 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 110.49 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5099,6 +5231,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 187.96 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c0c83c6b-bb4b-4903-b673-388e94a53196")
 		)
@@ -5203,6 +5346,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 124.46 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f5c3c994-9f3d-46c4-8dbb-16cb2aaac386")
 		)
@@ -5228,10 +5382,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "9d652634-d470-44ac-bdd6-6369a1bb8bdb")
 		(property "Reference" "R110"
 			(at 121.666 41.91 0)
@@ -5300,6 +5454,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 120.65 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 120.65 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -5404,6 +5569,17 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
+			(at 106.68 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 106.68 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -5529,6 +5705,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 88.9 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "d47071c8-e8bf-481a-ab49-89761cc96ed0")
 		)
@@ -5626,6 +5813,17 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
+			(at 115.57 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 115.57 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5742,6 +5940,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 88.9 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "01609066-46cc-4f5f-9154-52a97b3ac541")
 		)
@@ -5844,6 +6053,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 113.03 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "661d70d4-f5f9-4530-8a88-ae359df7d68a")
 		)
@@ -5869,10 +6089,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "af55bba0-dd19-4f22-8269-e31284e98ab3")
 		(property "Reference" "R109"
 			(at 116.586 41.91 0)
@@ -5941,6 +6161,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 115.57 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 115.57 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -6134,6 +6365,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 106.68 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "6"
 			(uuid "2dac4af3-bd0f-4739-b1b4-9ea5f872c143")
 		)
@@ -6242,6 +6484,17 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
+			(at 132.08 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 132.08 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -6391,6 +6644,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 193.04 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "b0e3a862-8af0-469a-9e54-85cadae46585")
 		)
@@ -6491,10 +6755,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "e5e5b575-e352-4022-b03b-83cf835430cf")
 		(property "Reference" "R113"
 			(at 126.746 41.91 0)
@@ -6563,6 +6827,17 @@
 			)
 		)
 		(property "FT Rotation Offset" ""
+			(at 125.73 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 125.73 43.18 0)
 			(hide yes)
 			(show_name no)

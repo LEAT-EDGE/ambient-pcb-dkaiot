@@ -60,12 +60,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.4,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.4,
+          "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -416,7 +416,31 @@
         ""
       ],
       [
+        "pin_to_pin|1536700|1079500|48ad7204-405a-49e5-8274-443b1ec513a5|e823d240-73de-435f-bda2-bc59565ae39a|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa",
+        ""
+      ],
+      [
         "pin_to_pin|1587500|1079500|48ad7204-405a-49e5-8274-443b1ec513a5|e823d240-73de-435f-bda2-bc59565ae39a|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa",
+        ""
+      ],
+      [
+        "pin_to_pin|1689100|457200|e823d240-73de-435f-bda2-bc59565ae39a|bfbf2237-1ad2-47c0-b524-12349b383c10|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa",
+        ""
+      ],
+      [
+        "pin_to_pin|1689100|482600|455ff5df-b0a8-4eb0-93b3-b54fcaba2e4c|4d263a76-58c6-4113-aa5e-804ca4039dcd|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa",
+        ""
+      ],
+      [
+        "pin_to_pin|2298700|419100|d2b851db-606c-42b7-ab2c-b82efee1bc7a|0defcb70-9011-4803-91d6-5332e9442481|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/e21f4090-1137-445d-beac-e9326d55c77a",
+        ""
+      ],
+      [
+        "pin_to_pin|812800|1104900|a70ad452-03ae-4faa-b3fe-6fc0aa89ec9b|48ad7204-405a-49e5-8274-443b1ec513a5|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa",
+        ""
+      ],
+      [
+        "pin_to_pin|812800|1130300|e085ce31-aa54-460f-8f8a-7be4def334c7|455ff5df-b0a8-4eb0-93b3-b54fcaba2e4c|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa|/13b7de53-ecff-4b32-b513-b5b471d022a3/177e1d79-4046-4c8a-85e5-b39397a261aa",
         ""
       ],
       [
@@ -839,7 +863,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -851,6 +875,66 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Rotation Offset",
+          "name": "JLCPCB Rotation Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FT Rotation Offset",
+          "name": "FT Rotation Offset",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pin",
+          "name": "Sim.Pin",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alternate LCSC",
+          "name": "Alternate LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part #",
+          "name": "JLCPCB Part #",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Position Offset",
+          "name": "JLCPCB Position Offset",
           "show": false
         }
       ],
@@ -902,7 +986,7 @@
         "uuid": "13b7de53-ecff-4b32-b513-b5b471d022a3"
       }
     ],
-    "used_designators": "D7-12,U23,U25,U27,U34-44,C44-45,C58-114,SW1,J2,J9,J13-19,J27-29,#FLG8-18,MK1,BT1-2,JP1-11,TP1-3,R32-33,R37,R40,R45,R57-113,RV1,RV3-4,L1,FB1,#PWR18,#PWR27,#PWR31-32,#PWR35-36,#PWR38,#PWR40,#PWR44,#PWR46,#PWR48-54,#PWR57-58,#PWR62,#PWR64,#PWR66,#PWR77,#PWR96-164,F1,Q1-6",
+    "used_designators": "LED1,X2,J2,J9,J13-19,J27-29,SW1,D7-12,U23,U25-27,U34-47,C44-45,C58-119,TP1-3,JP1-11,R32-33,R37,R40,R45,R57-115,BT1-2,MK1,#FLG8-18,J_GPS_EN2,Q1-6,F1,L1,RV1,RV3-4,FB1,#PWR18,#PWR26-27,#PWR31-32,#PWR35-36,#PWR38,#PWR40,#PWR44,#PWR46,#PWR48-54,#PWR57-58,#PWR62,#PWR64,#PWR66,#PWR77,#PWR96-164",
     "variants": [
       {
         "description": "BOM variant for Ambient project: unnecessary sensors removed",

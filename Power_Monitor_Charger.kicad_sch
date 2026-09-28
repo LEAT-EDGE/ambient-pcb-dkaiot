@@ -7052,6 +7052,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 182.88 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "03e11362-103a-4955-9e98-c25fa3fe4dae")
 		)
@@ -7178,7 +7189,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 237.49 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7211,7 +7222,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C163035"
+		(property "LCSC" "C20079"
 			(at 237.49 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7234,6 +7245,17 @@
 			)
 		)
 		(property "JLCPCB Position Offset" "0,3.6195"
+			(at 237.49 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 237.49 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7293,7 +7315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 199.39 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7326,7 +7348,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C157931"
+		(property "LCSC" "C20079"
 			(at 199.39 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7349,6 +7371,17 @@
 			)
 		)
 		(property "JLCPCB Position Offset" "0,3.6195"
+			(at 199.39 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 199.39 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -7442,6 +7475,17 @@
 			)
 		)
 		(property "LCSC" "C181255"
+			(at 116.84 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 116.84 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -7667,6 +7711,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 104.14 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "4d8190d1-5cc1-4f6c-89a8-e51f2e700525")
 		)
@@ -7748,6 +7803,17 @@
 			)
 		)
 		(property "LCSC" "C2683383"
+			(at 214.63 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 214.63 48.26 90)
 			(hide yes)
 			(show_name no)
@@ -7851,6 +7917,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 143.51 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "0dea389a-443e-4e95-a8e5-45629225ff12")
 		)
@@ -7899,7 +7976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A-1_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 24.13 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7932,7 +8009,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C163035"
+		(property "LCSC" "C20079"
 			(at 24.13 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -7955,6 +8032,17 @@
 			)
 		)
 		(property "JLCPCB Position Offset" "0,3.6195"
+			(at 24.13 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 24.13 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -8057,6 +8145,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 193.04 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ab8c75fd-b65c-4741-a7a8-82a366add191")
 		)
@@ -8138,6 +8237,17 @@
 			)
 		)
 		(property "LCSC" "C2683383"
+			(at 214.63 52.07 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 214.63 52.07 90)
 			(hide yes)
 			(show_name no)
@@ -8241,6 +8351,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 168.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "affacdda-8f28-4f0d-9cab-d627600ba1c1")
 		)
@@ -8290,7 +8411,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_S2B-XH-A_1x02_P2.50mm_Horizontal"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 199.39 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -8323,7 +8444,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C157931"
+		(property "LCSC" "C20079"
 			(at 199.39 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -8346,6 +8467,17 @@
 			)
 		)
 		(property "JLCPCB Position Offset" "0,3.6195"
+			(at 199.39 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 199.39 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -8438,6 +8570,17 @@
 			)
 		)
 		(property "LCSC" "C25752"
+			(at 96.52 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 96.52 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -8619,6 +8762,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 151.13 55.88 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "74bb2ecb-7baf-4ddb-9037-d05c610f93c9")
 		)
@@ -8712,6 +8866,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 154.94 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "3fb5e68d-9b7b-4749-8a3d-1d2daf517e5b")
 		)
@@ -8761,7 +8926,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
 			(at 199.39 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8784,6 +8949,28 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 199.39 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 199.39 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C37815"
 			(at 199.39 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8890,6 +9077,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 74.93 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bcf07a3c-5f49-4f0c-9c35-e41111795d5d")
 		)
@@ -8972,6 +9170,17 @@
 			)
 		)
 		(property "LCSC" "C25792"
+			(at 147.32 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 147.32 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -9074,6 +9283,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 143.51 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "a9fa2bcb-2019-4072-a950-0364b4dd47eb")
 		)
@@ -9156,6 +9376,17 @@
 			)
 		)
 		(property "LCSC" "C45783"
+			(at 63.5 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 63.5 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9258,6 +9489,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 59.69 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "d2922425-482d-4f22-8776-1966fdc7d4a4")
 		)
@@ -9340,6 +9582,17 @@
 			)
 		)
 		(property "LCSC" "C25079"
+			(at 143.51 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 143.51 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -9443,6 +9696,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 139.7 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "85cfff85-a4cc-4d81-8521-eb36db6bd41e")
 		)
@@ -9466,7 +9730,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "5631651d-9e05-497f-a864-0539d79cfccc")
 		(property "Reference" "JP2"
@@ -9513,6 +9777,17 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 204.47 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 204.47 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9602,8 +9877,19 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C840499"
+		(property "LCSC" "C840499"
 			(at 130.81 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 130.81 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9730,6 +10016,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 172.72 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "59f969f7-700f-4dc2-ba4a-dc628559f420")
 		)
@@ -9845,7 +10142,7 @@
 				)
 			)
 		)
-		(property "Value" "47µH/3A"
+		(property "Value" "33µH/2.32A"
 			(at 157.48 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9855,7 +10152,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Sunlord_MWSA0804S"
+		(property "Footprint" "Inductor_SMD:L_Chilisin_BMRB00060650"
 			(at 157.48 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -9888,7 +10185,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C2962889"
+		(property "LCSC" "C47327223"
+			(at 157.48 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 157.48 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -9981,6 +10289,17 @@
 			)
 		)
 		(property "LCSC" "C2908821"
+			(at 45.72 34.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 45.72 34.29 90)
 			(hide yes)
 			(show_name no)
@@ -10095,6 +10414,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 199.39 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "77427edd-6f2b-41b4-81c3-710e9cbe9e63")
 		)
@@ -10183,6 +10513,17 @@
 			)
 		)
 		(property "LCSC" "C2908821"
+			(at 175.26 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 175.26 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -10285,6 +10626,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 55.88 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "98cd7f72-7781-4e6e-8392-4a336fb6791f")
 		)
@@ -10370,6 +10722,28 @@
 			)
 		)
 		(property "FT Rotation Offset" "180"
+			(at 143.51 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
+			(at 143.51 26.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
 			(at 143.51 26.67 90)
 			(hide yes)
 			(show_name no)
@@ -10478,6 +10852,28 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 143.51 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C15127"
+			(at 143.51 43.18 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "f1bfa6dc-379c-44df-b2a6-502113d43f5b")
 		)
@@ -10563,6 +10959,17 @@
 			)
 		)
 		(property "LCSC" "C25744"
+			(at 109.22 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 109.22 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -10665,6 +11072,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 91.44 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "7f06808d-23df-41b5-a9c6-d2bb5e1538e9")
 		)
@@ -10747,6 +11165,17 @@
 			)
 		)
 		(property "LCSC" "C307331"
+			(at 128.27 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 128.27 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10840,6 +11269,17 @@
 			)
 		)
 		(property "LCSC" "C25792"
+			(at 161.29 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 161.29 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -10985,6 +11425,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 96.52 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "3"
 			(uuid "07a0955c-6030-44e1-b2b0-0fe95376cab4")
 		)
@@ -11011,7 +11462,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "a7750171-cb9f-477c-a830-a045ba57e1f5")
 		(property "Reference" "JP4"
@@ -11058,6 +11509,17 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 114.3 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 114.3 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -11237,6 +11699,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 74.93 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9a9bb0da-7726-46c1-b002-8d1ecca98189")
 		)
@@ -11318,6 +11791,17 @@
 			)
 		)
 		(property "LCSC" "C2683383"
+			(at 214.63 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 214.63 40.64 90)
 			(hide yes)
 			(show_name no)
@@ -11498,6 +11982,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 52.07 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "26617fa3-ff22-4800-ace4-b73e6bdd06bc")
 		)
@@ -11579,6 +12074,17 @@
 			)
 		)
 		(property "LCSC" "C2683383"
+			(at 214.63 44.45 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 214.63 44.45 90)
 			(hide yes)
 			(show_name no)
@@ -11701,6 +12207,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 115.57 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a7827bb2-3bf2-491f-a294-eb291b4c7420")
 		)
@@ -11793,6 +12310,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 187.96 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "51070452-43ac-4ac7-9180-180481dc78f9")
 		)
@@ -11814,9 +12342,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "b9d906f1-a59d-4133-b0ad-229bca4bb8d5")
@@ -11842,7 +12370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 			(at 266.7 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11875,7 +12403,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C157931"
+		(property "LCSC" "C20079"
 			(at 266.7 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11898,6 +12426,17 @@
 			)
 		)
 		(property "JLCPCB Position Offset" "0,3.6195"
+			(at 266.7 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 266.7 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -12001,6 +12540,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 156.21 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "523e6122-fe32-4ea3-88ad-5d198c3f299e")
 		)
@@ -12024,7 +12574,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "bc725c55-c146-4977-a27e-468871dd1727")
 		(property "Reference" "JP1"
@@ -12071,6 +12621,17 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 204.47 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 204.47 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -12330,6 +12891,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 151.13 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "11340569-5884-4e53-ba85-e886dd6217d0")
 		)
@@ -12413,6 +12985,17 @@
 			)
 		)
 		(property "LCSC" "C25792"
+			(at 143.51 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 143.51 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -12515,6 +13098,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 86.36 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9db9cccf-5be8-49ca-bda7-c151357aef97")
 		)
@@ -12552,7 +13146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7µF/6.3V"
+		(property "Value" "4.7µF"
 			(at 57.912 131.318 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12607,6 +13201,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 69.85 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "58821eec-28c8-4572-97d1-2a75d594584a")
 		)
@@ -12645,7 +13250,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF/6.3V"
+		(property "Value" "100nF"
 			(at 77.47 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12700,6 +13305,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 74.93 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bd69a8e6-4990-4ddb-a2de-f23b85581e16")
 		)
@@ -12723,7 +13339,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "d62c7c34-5af2-4227-920d-b89c6c0ff43a")
 		(property "Reference" "JP5"
@@ -12780,6 +13396,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 204.47 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "62227f8d-8d37-461a-9c01-716bfd76ef97")
 		)
@@ -12801,10 +13428,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "d8182cf1-2b66-47da-b516-7a565ca0d33b")
 		(property "Reference" "C67"
 			(at 162.56 52.324 0)
@@ -12862,6 +13489,17 @@
 			)
 		)
 		(property "LCSC" "C96123"
+			(at 166.37 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 166.37 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -12985,6 +13623,17 @@
 				)
 			)
 		)
+		(property "LCSC Part" ""
+			(at 115.57 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "72489223-de42-4896-a599-4e93850a43ef")
 		)
@@ -13086,7 +13735,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "ecb3a0c2-a43a-4e80-9e72-482790215aa6")
 		(property "Reference" "JP3"
@@ -13133,6 +13782,17 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 204.47 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" ""
 			(at 204.47 52.07 0)
 			(hide yes)
 			(show_name no)
