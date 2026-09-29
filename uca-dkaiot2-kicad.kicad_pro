@@ -785,7 +785,7 @@
       "netlist": "",
       "plot": "gerbers/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "stl/uca-dkaiot2-kicad.stl",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -986,7 +986,7 @@
         "uuid": "13b7de53-ecff-4b32-b513-b5b471d022a3"
       }
     ],
-    "used_designators": "LED1,X2,J2,J9,J13-19,J27-29,SW1,D7-12,U23,U25-27,U34-47,C44-45,C58-119,TP1-3,JP1-11,R32-33,R37,R40,R45,R57-115,BT1-2,MK1,#FLG8-18,J_GPS_EN2,Q1-6,F1,L1,RV1,RV3-4,FB1,#PWR18,#PWR26-27,#PWR31-32,#PWR35-36,#PWR38,#PWR40,#PWR44,#PWR46,#PWR48-54,#PWR57-58,#PWR62,#PWR64,#PWR66,#PWR77,#PWR96-164",
+    "used_designators": "#FLG8-18,MK1,U23,U25-27,U34-47,D7-12,C44-45,C58-121,SW1,J2,J9,J13-19,J27-29,#PWR18,#PWR26-27,#PWR31-32,#PWR35-36,#PWR38,#PWR40,#PWR44,#PWR46,#PWR48-54,#PWR57-58,#PWR62,#PWR64,#PWR66,#PWR77,#PWR96-164,FB1,RV1,RV3-4,L1,F1,Q1-6,J_GPS_EN2,LED1,TP1-3,JP1-11,R28,R32-33,R37,R40,R45,R57-115,X2,BT1-2",
     "variants": [
       {
         "description": "BOM variant for Ambient project: unnecessary sensors removed",

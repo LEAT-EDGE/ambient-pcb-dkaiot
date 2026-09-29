@@ -2968,8 +2968,8 @@
 	)
 	(text_box "C118: impedance matching\n2.2pF high-Q capacitor for Ambient antenna (8.8mm inner spacing)"
 		(exclude_from_sim no)
-		(at 39.37 118.11 0)
-		(size 22.86 26.67)
+		(at 33.02 125.73 0)
+		(size 29.21 19.05)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -3085,6 +3085,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94159d76-ba60-4fd1-b8eb-2a7b45b27820")
+	)
+	(junction
+		(at 53.34 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a667dd47-3499-43d8-b864-6b61824111d6")
 	)
 	(junction
 		(at 147.32 96.52)
@@ -3249,16 +3255,6 @@
 			(type default)
 		)
 		(uuid "13b31fee-0e36-4f93-a98a-b94cd8dba9a9")
-	)
-	(wire
-		(pts
-			(xy 53.34 135.89) (xy 55.88 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "143ac0f0-704b-429b-82c7-cb6244d4fe27")
 	)
 	(wire
 		(pts
@@ -3632,7 +3628,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 111.76) (xy 66.04 111.76)
+			(xy 43.18 111.76) (xy 45.72 111.76)
 		)
 		(stroke
 			(width 0)
@@ -3832,6 +3828,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 111.76) (xy 66.04 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb26d366-4113-49d0-8f08-bf275d952207")
+	)
+	(wire
+		(pts
 			(xy 156.21 55.88) (xy 156.21 68.58)
 		)
 		(stroke
@@ -3839,6 +3845,16 @@
 			(type default)
 		)
 		(uuid "bcc27e89-587f-445f-93e2-547ad56ab138")
+	)
+	(wire
+		(pts
+			(xy 53.34 111.76) (xy 53.34 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be30ce99-a072-4a3d-b837-593907154a21")
 	)
 	(wire
 		(pts
@@ -4052,6 +4068,26 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 135.89) (xy 55.88 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6267452-1bc4-4760-9b3b-746a5c61e0e4")
+	)
+	(wire
+		(pts
+			(xy 50.8 111.76) (xy 53.34 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6d3f063-7685-49d5-9952-3f861044026a")
+	)
+	(wire
+		(pts
 			(xy 60.96 82.55) (xy 63.5 82.55)
 		)
 		(stroke
@@ -4212,7 +4248,7 @@
 	)
 	(global_label "E22_ANT"
 		(shape bidirectional)
-		(at 53.34 111.76 180)
+		(at 43.18 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4222,7 +4258,7 @@
 		)
 		(uuid "5aff7c0b-e79c-470c-b704-794cf5586466")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.3212 111.76 0)
+			(at 31.1612 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4450,30 +4486,6 @@
 			)
 		)
 	)
-	(global_label "E22_ANT"
-		(shape bidirectional)
-		(at 53.34 135.89 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d9ba878a-c4dd-40dd-9310-d87407d7d515")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.3212 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
 	(global_label "NSS_E22"
 		(shape input)
 		(at 60.96 85.09 180)
@@ -4652,10 +4664,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files no)
-		(dnp yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0735ca06-88a0-4819-8001-2313f8ef5bc9")
 		(property "Reference" "J6"
@@ -5390,9 +5402,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "2b15a217-765d-44cc-ae2b-2fb4b95e9e85")
@@ -6226,6 +6238,97 @@
 			(project "uca-dkaiot2-kicad"
 				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/32a654bf-d623-4518-9392-f2b212dc4f8b"
 					(reference "#PWR071")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 48.26 111.76 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51619e76-9fae-4648-928a-3304965749bf")
+		(property "Reference" "R28"
+			(at 48.26 106.68 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 48.26 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 48.26 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 48.26 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C17168"
+			(at 48.26 111.76 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "178c7d6c-e3ba-4422-855a-c5744b6bc95b")
+		)
+		(pin "2"
+			(uuid "ed16197f-9550-40b9-ac9f-67895be4edf5")
+		)
+		(instances
+			(project "uca-dkaiot2-kicad"
+				(path "/13b7de53-ecff-4b32-b513-b5b471d022a3/32a654bf-d623-4518-9392-f2b212dc4f8b"
+					(reference "R28")
 					(unit 1)
 				)
 			)

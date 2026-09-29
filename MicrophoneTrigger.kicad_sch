@@ -5869,7 +5869,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF/6.3V"
+		(property "Value" "47uF/6.3V"
 			(at 111.76 133.604 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5913,18 +5913,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15008"
-			(at 116.84 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" ""
+		(property "LCSC" "C96123"
 			(at 116.84 127 0)
 			(hide yes)
 			(show_name no)
@@ -7443,9 +7432,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp yes)
 		(uuid "7a12eece-4d4f-4b2b-8be4-8f6b0eb4367c")
 		(property "Reference" "C92"
@@ -8169,10 +8158,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "979fa32f-769b-44a2-950a-e963e82072b3")
 		(property "Reference" "C105"
 			(at 123.698 124.714 0)
@@ -9220,28 +9209,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "965b905b-eb1e-40cc-8785-27b305d0368a")
+			(uuid "965b905b-eb1e-40cc-8785-27b305d0368b")
 		)
 		(pin "1"
-			(uuid "864befde-560d-447a-be6f-5fdb789edde8")
+			(uuid "864befde-560d-447a-be6f-5fdb789edde9")
 		)
 		(pin "7"
-			(uuid "2117049e-e81c-4f4d-937f-2c41d213f05d")
+			(uuid "2117049e-e81c-4f4d-937f-2c41d213f05e")
 		)
 		(pin "6"
-			(uuid "c4afde62-2162-4501-907a-7e44625ad24b")
+			(uuid "c4afde62-2162-4501-907a-7e44625ad24c")
 		)
 		(pin "5"
-			(uuid "8d8de07c-d776-4ba3-9316-dc338fe6e3da")
+			(uuid "8d8de07c-d776-4ba3-9316-dc338fe6e3db")
 		)
 		(pin "4"
-			(uuid "619d7bde-0270-407a-be33-b4147098248d")
+			(uuid "619d7bde-0270-407a-be33-b4147098248e")
 		)
 		(pin "3"
-			(uuid "b2db9590-64a3-4824-9d24-11c43788f633")
+			(uuid "b2db9590-64a3-4824-9d24-11c43788f634")
 		)
 		(pin "2"
-			(uuid "d7f0cee7-78e0-42ef-8605-a3bb9513abf0")
+			(uuid "d7f0cee7-78e0-42ef-8605-a3bb9513abf1")
 		)
 		(instances
 			(project "uca-dkaiot2-kicad"
