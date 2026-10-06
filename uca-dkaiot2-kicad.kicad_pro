@@ -60,12 +60,12 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.0,
+          "min_clearance": 0.4,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 2,
+          "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
+          "thermal_relief_gap": 0.4,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -76,56 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|36752450|33964260|0b82f68a-2592-49ef-b049-dece1bc23e54|66169cfe-95a5-428f-a7e5-f7c3d89581f2",
-          ""
-        ],
-        [
-          "silk_edge_clearance|25017450|43149260|48af446c-cc7d-416e-bab3-04c35095be6a|50fbd077-8fb1-4eda-a92c-37176d17789b",
-          ""
-        ],
-        [
-          "silk_edge_clearance|25017450|46924260|48af446c-cc7d-416e-bab3-04c35095be6a|cd4c48e2-d909-4d34-abfe-b500f25c1a72",
-          ""
-        ],
-        [
-          "silk_edge_clearance|25017450|50775000|48af446c-cc7d-416e-bab3-04c35095be6a|1af69469-e4c3-486e-acf7-5b1b249c575b",
-          ""
-        ],
-        [
-          "silk_edge_clearance|25017450|54550000|48af446c-cc7d-416e-bab3-04c35095be6a|bc892b9e-e90f-4643-b308-73436f997eee",
-          ""
-        ],
-        [
-          "silk_edge_clearance|38142450|95104260|bb69fd15-c66e-4e05-beeb-603530b2ccc0|12a16395-0a3c-4fde-82ed-05b24e002344",
-          ""
-        ],
-        [
-          "silk_edge_clearance|41917450|95104260|bb69fd15-c66e-4e05-beeb-603530b2ccc0|fac9b649-a2e3-40a0-88de-880cfd3ab890",
-          ""
-        ],
-        [
-          "silk_edge_clearance|97602450|68220000|c76cf720-017d-4407-bd38-085e78fc91aa|2de41472-4179-400a-8e40-98192c647b40",
-          ""
-        ],
-        [
-          "silk_overlap|36642450|34349260|c684670f-8086-430f-ad1d-e8dd88c656d9|d5ab47c5-c885-481b-9885-9a7482fb4b87",
-          ""
-        ],
-        [
-          "silk_overlap|36642450|42079260|02ab63df-7eb1-4109-ac82-23521d6f0228|c684670f-8086-430f-ad1d-e8dd88c656d9",
-          ""
-        ],
-        [
-          "silk_overlap|36752450|34349260|369b82e0-76e6-4d58-8a94-335a7d185d12|d5ab47c5-c885-481b-9885-9a7482fb4b87",
-          ""
-        ],
-        [
-          "silk_overlap|36862450|34349260|369b82e0-76e6-4d58-8a94-335a7d185d12|ae86e920-0d27-4338-9711-64d6d2abab85",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -706,16 +657,29 @@
       {
         "name": "ANT",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.268,
+        "track_width": 0.3447,
         "tuning_profile": ""
       },
       {
         "clearance": 0.3,
+        "diff_pair_width": 0.8,
+        "name": "BATTPWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.8,
+        "tuning_profile": "",
+        "via_diameter": 0.8,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.3,
+        "diff_pair_width": 0.4,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.4,
         "tuning_profile": "",
@@ -735,14 +699,14 @@
       },
       {
         "netclass": "PWR",
-        "pattern": "*V"
+        "pattern": "+*V*"
       },
       {
         "netclass": "PWR",
         "pattern": "Vin"
       },
       {
-        "netclass": "PWR",
+        "netclass": "BATTPWR",
         "pattern": "*BATT*"
       },
       {
@@ -754,28 +718,48 @@
         "pattern": "*VDD*"
       },
       {
-        "netclass": "PWR",
-        "pattern": "*U13*"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "*U16*"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "*D2*"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "*D3*"
-      },
-      {
         "netclass": "ANT",
         "pattern": "*E22_ANT*"
       },
       {
+        "netclass": "BATTPWR",
+        "pattern": "*Q3-D*"
+      },
+      {
+        "netclass": "BATTPWR",
+        "pattern": "*Q3-S*"
+      },
+      {
+        "netclass": "BATTPWR",
+        "pattern": "*Q5-D*"
+      },
+      {
+        "netclass": "BATTPWR",
+        "pattern": "*CSI*"
+      },
+      {
+        "netclass": "BATTPWR",
+        "pattern": "*D9-K*"
+      },
+      {
+        "netclass": "BATTPWR",
+        "pattern": "*D10*"
+      },
+      {
+        "netclass": "BATTPWR",
+        "pattern": "*CSO*"
+      },
+      {
+        "netclass": "PWR",
+        "pattern": "*V_BCKP*"
+      },
+      {
         "netclass": "ANT",
-        "pattern": "*J10-In*"
+        "pattern": "*J6*"
+      },
+      {
+        "netclass": "ANT",
+        "pattern": "*J20*"
       }
     ]
   },
@@ -986,7 +970,7 @@
         "uuid": "13b7de53-ecff-4b32-b513-b5b471d022a3"
       }
     ],
-    "used_designators": "#FLG8-18,MK1,U23,U25-27,U34-47,D7-12,C44-45,C58-121,SW1,J2,J9,J13-19,J27-29,#PWR18,#PWR26-27,#PWR31-32,#PWR35-36,#PWR38,#PWR40,#PWR44,#PWR46,#PWR48-54,#PWR57-58,#PWR62,#PWR64,#PWR66,#PWR77,#PWR96-164,FB1,RV1,RV3-4,L1,F1,Q1-6,J_GPS_EN2,LED1,TP1-3,JP1-11,R28,R32-33,R37,R40,R45,R57-115,X2,BT1-2",
+    "used_designators": "J_GPS_EN2,F1,Q1-6,U23,U25-27,U34-47,D7-12,C44-45,C58-121,BT1-2,X2,SW1,NT1-3,J2,J9,J13-19,J27-29,#PWR18,#PWR26-27,#PWR31-32,#PWR35-36,#PWR38,#PWR40,#PWR44,#PWR46,#PWR48-54,#PWR57-58,#PWR62,#PWR64,#PWR66,#PWR77,#PWR96-164,FB1,RV1,RV3-4,L1,MK1,#FLG8-18,LED1,TP1-3,JP1-11,R28,R32-33,R37,R40,R45,R57-115",
     "variants": [
       {
         "description": "BOM variant for Ambient project: unnecessary sensors removed",
