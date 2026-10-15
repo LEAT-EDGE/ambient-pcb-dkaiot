@@ -4747,6 +4747,17 @@
 				)
 			)
 		)
+		(property "FT Position Offset" "-0.508,0.0"
+			(at 71.12 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "f8c356cd-f671-46f6-a425-0acc0da4fec2")
 		)
@@ -7471,7 +7482,7 @@
 				)
 			)
 		)
-		(property "FT Position Offset" "0.508,0.0"
+		(property "FT Position Offset" "0,0.508"
 			(at 200.66 99.06 0)
 			(hide yes)
 			(show_name no)

@@ -118,14 +118,6 @@
           ""
         ],
         [
-          "copper_edge_clearance|131600000|88633332|7581e9cb-2830-4f2f-818e-3e28cd327c7b|610900d8-f567-49df-b607-5c66674828bc",
-          ""
-        ],
-        [
-          "copper_edge_clearance|204500000|90300000|7f60e83a-93a2-4cbb-b4ff-470780b484c4|bf60ca9a-7ada-4418-84ea-2211093741dd",
-          ""
-        ],
-        [
           "courtyards_overlap|168297490|70695000|bcc73363-ff0d-425e-877a-c3f2df456a29|f8b87379-036a-4873-8574-91190e89487c",
           ""
         ],
@@ -134,11 +126,7 @@
           ""
         ],
         [
-          "silk_edge_clearance|131600000|103360000|7581e9cb-2830-4f2f-818e-3e28cd327c7b|3e08e78e-2f6c-46d7-9a1c-db64bbd5ac94",
-          ""
-        ],
-        [
-          "silk_edge_clearance|131600000|81240000|7581e9cb-2830-4f2f-818e-3e28cd327c7b|3cfb9734-eddf-401a-a05a-ab4b3b107936",
+          "silk_edge_clearance|204600000|103360000|844fb4f2-6bc9-45da-8e1e-77948d0d0911|3e08e78e-2f6c-46d7-9a1c-db64bbd5ac94",
           ""
         ],
         [
@@ -147,6 +135,10 @@
         ],
         [
           "silk_edge_clearance|204600000|74110000|7f60e83a-93a2-4cbb-b4ff-470780b484c4|ed9f7e15-81e1-4d43-9858-3e02c38371af",
+          ""
+        ],
+        [
+          "silk_edge_clearance|204600000|81240000|7f60e83a-93a2-4cbb-b4ff-470780b484c4|3cfb9734-eddf-401a-a05a-ab4b3b107936",
           ""
         ],
         [
@@ -1051,7 +1043,7 @@
         "uuid": "13b7de53-ecff-4b32-b513-b5b471d022a3"
       }
     ],
-    "used_designators": "F1,Q1-6,U23,U25-27,U34-47,D7-12,C44-45,C58-121,SW1,R28,R32-33,R37,R40,R45,R57-115,JP1-11,NT1-3,J2,J9,J13-19,J27-29,L1,RV1,RV3-4,FB1,#PWR18,#PWR26-27,#PWR31-32,#PWR35-36,#PWR38,#PWR40,#PWR44,#PWR46,#PWR48-54,#PWR57-58,#PWR62,#PWR64,#PWR66,#PWR77,#PWR96-164,BT1-2,X2,J_GPS_EN2,MK1,#FLG8-18,LED1,TP1-3",
+    "used_designators": "X2,MK1,#FLG8-18,SW1,NT1-3,LED1,TP1-3,R28,R32-33,R37,R40,R45,R57-115,C44-45,C58-121,D7-12,U23,U25-27,U34-47,Q1-6,F1,J_GPS_EN2,#PWR18,#PWR26-27,#PWR31-32,#PWR35-36,#PWR38,#PWR40,#PWR44,#PWR46,#PWR48-54,#PWR57-58,#PWR62,#PWR64,#PWR66,#PWR77,#PWR96-164,BT1-2,FB1,RV1,RV3-4,L1,J2,J9,J13-19,J27-29,JP1-11",
     "variants": [
       {
         "description": "BOM variant for Ambient project: unnecessary sensors removed",
