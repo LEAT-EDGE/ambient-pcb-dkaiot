@@ -6529,9 +6529,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "dbb5619d-7d08-489d-a4ce-f94c0ddd160d")
 		(property "Reference" "BT1"

@@ -4760,6 +4760,17 @@
 				)
 			)
 		)
+		(property "FT Rotation Offset" "-90"
+			(at 215.9 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "965b905b-eb1e-40cc-8785-27b305d0368a")
 		)
@@ -9198,6 +9209,17 @@
 			)
 		)
 		(property "LCSC" "C44383322"
+			(at 143.51 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "FT Rotation Offset" "-90"
 			(at 143.51 40.64 0)
 			(hide yes)
 			(show_name no)

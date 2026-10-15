@@ -9571,7 +9571,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e30ff8b-5354-40ab-a085-ab61b1e5a9d5")
@@ -11647,7 +11647,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "9efc3aa6-099f-44c1-9918-9f372a3df89f")
 		(property "Reference" "NT2"

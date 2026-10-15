@@ -7,4 +7,5 @@
 	(lib (name "Jack_3.5mm") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/Jack_3.5mm.pretty") (options "") (descr ""))
 	(lib (name "digikey-footprints") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/digikey-footprints.pretty") (options "") (descr ""))
 	(lib (name "TestPoint_Pad_D0.5mm") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/TestPoint_Pad_D0.5mm.pretty") (options "") (descr ""))
+	(lib (name "U.FL_Hirose_No_Keepout") (type "KiCad") (uri "${KIPRJMOD}/libraries/footprints/U.FL_Hirose_No_Keepout.pretty") (options "") (descr ""))
 )
