@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "UCA DKAIoT2 — Power")
-		(date "2026-06-14")
-		(rev "v0.2")
+		(date "2026-11-24")
+		(rev "v0.3")
 		(company "//piernov")
 	)
 	(lib_symbols
@@ -11298,7 +11298,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C55145369"
+		(property "LCSC" "C54799863"
 			(at 71.12 95.25 0)
 			(hide yes)
 			(show_name no)

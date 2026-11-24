@@ -5,8 +5,8 @@
 	(uuid "a40ef1d5-f905-4eeb-989a-038e57735cd6")
 	(paper "A4")
 	(title_block
-		(date "2026-06-14")
-		(rev "v0.2")
+		(date "2026-11-24")
+		(rev "v0.3")
 		(company "//piernov")
 	)
 	(lib_symbols

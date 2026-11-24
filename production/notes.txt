@@ -1,0 +1,1 @@
+Please ensure assembly of F1 (SETfuse X18) more than 20 millimeters above PCB and manual soldering time below 2 seconds as per manufacturer recommendations (section 8.14, table 2 of datasheet) in order to avoid component damage.

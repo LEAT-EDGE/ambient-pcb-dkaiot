@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "UCA DKAIoT2 — MCU")
-		(date "2026-06-14")
-		(rev "v0.2")
+		(date "2026-11-24")
+		(rev "v0.3")
 		(company "//piernov")
 	)
 	(lib_symbols
@@ -10948,9 +10948,9 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "defae93c-d510-4300-95f6-5c806477aa15")

@@ -126,7 +126,19 @@
           ""
         ],
         [
-          "silk_edge_clearance|204600000|103360000|844fb4f2-6bc9-45da-8e1e-77948d0d0911|3e08e78e-2f6c-46d7-9a1c-db64bbd5ac94",
+          "silk_edge_clearance|131598853|81240000|7581e9cb-2830-4f2f-818e-3e28cd327c7b|3cfb9734-eddf-401a-a05a-ab4b3b107936",
+          ""
+        ],
+        [
+          "silk_edge_clearance|131599321|103360000|35738b1e-db99-419d-a326-224a91503e3b|3e08e78e-2f6c-46d7-9a1c-db64bbd5ac94",
+          ""
+        ],
+        [
+          "silk_edge_clearance|150260000|110400000|e168a575-9008-4ec8-95da-6ab264ff8215|1a9b308b-1e02-475d-8a31-ecfd7b8daa63",
+          ""
+        ],
+        [
+          "silk_edge_clearance|157780000|110400000|45b54963-7df3-4951-a387-903b1c65323c|ee57ee24-8e7a-4f14-bd3f-8b5e3617f32d",
           ""
         ],
         [
@@ -138,15 +150,15 @@
           ""
         ],
         [
-          "silk_edge_clearance|204600000|81240000|7f60e83a-93a2-4cbb-b4ff-470780b484c4|3cfb9734-eddf-401a-a05a-ab4b3b107936",
-          ""
-        ],
-        [
           "silk_over_copper|156592678|81240000|3cfb9734-eddf-401a-a05a-ab4b3b107936|82bc0fc1-655e-4748-b1b3-21d535e08fc6",
           ""
         ],
         [
           "silk_over_copper|179622678|81240000|3cfb9734-eddf-401a-a05a-ab4b3b107936|7eafed14-6335-4718-a9dd-42e4d242f682",
+          ""
+        ],
+        [
+          "silk_over_copper|202245000|79450000|1fd6e5ee-ed72-4cb8-8648-12d460699e01|1aedea13-0582-44ee-9b4d-6c24394cd91b",
           ""
         ]
       ],
@@ -251,6 +263,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -262,6 +275,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -273,6 +287,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -326,7 +341,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v0.2"
+      "sch_revision": "v0.3"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -684,6 +699,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -763,8 +779,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "PWR",
@@ -833,6 +849,10 @@
       {
         "netclass": "ANT",
         "pattern": "*J20*"
+      },
+      {
+        "netclass": "BATTPWR",
+        "pattern": "*JP12*"
       }
     ]
   },
@@ -1043,7 +1063,7 @@
         "uuid": "13b7de53-ecff-4b32-b513-b5b471d022a3"
       }
     ],
-    "used_designators": "X2,MK1,#FLG8-18,SW1,NT1-3,LED1,TP1-3,R28,R32-33,R37,R40,R45,R57-115,C44-45,C58-121,D7-12,U23,U25-27,U34-47,Q1-6,F1,J_GPS_EN2,#PWR18,#PWR26-27,#PWR31-32,#PWR35-36,#PWR38,#PWR40,#PWR44,#PWR46,#PWR48-54,#PWR57-58,#PWR62,#PWR64,#PWR66,#PWR77,#PWR96-164,BT1-2,FB1,RV1,RV3-4,L1,J2,J9,J13-19,J27-29,JP1-11",
+    "used_designators": "#FLG8-18,#PWR18,#PWR26-27,#PWR31-32,#PWR35-36,#PWR38,#PWR40,#PWR44,#PWR46,#PWR48-54,#PWR57-58,#PWR62,#PWR64,#PWR66,#PWR77,#PWR96-165,BT1-2,C44-45,C58-121,D7-12,F1,FB1,J2,J9,J13-19,J27-29,JP1-12,J_GPS_EN2,L1,LED1,MK1,NT1-3,Q1-6,R28,R32-33,R37,R40,R45,R57-115,RV1,RV3-4,SW1,TP1-3,U23,U25-27,U34-47,X2",
     "variants": [
       {
         "description": "BOM variant for Ambient project: unnecessary sensors removed",

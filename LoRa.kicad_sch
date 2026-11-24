@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "UCA DKAIoT2 — Wireless")
-		(date "2026-06-14")
-		(rev "v0.2")
+		(date "2026-11-24")
+		(rev "v0.3")
 		(company "//piernov")
 	)
 	(lib_symbols
@@ -4667,7 +4667,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0735ca06-88a0-4819-8001-2313f8ef5bc9")
 		(property "Reference" "J6"
